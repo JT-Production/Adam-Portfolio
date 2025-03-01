@@ -4,7 +4,7 @@ import { FaXTwitter, FaTiktok,  FaYoutube, FaTelegram } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className=" p-12 h-screen flex justify-center items-center">
+    <div className=" p-12 h-screen flex justify-center items-center mt-28 lg:mt-19">
       <div className="grid lg:grid-cols-2 gap-10">
         <div className="bg-zinc-900 w-8/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end">
          
