@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family:"Magnetar";
+    src: url('https://fonts.cdnfonts.com/css/magnetar');
+}
+                
+body{
+    scroll-behavior: smooth;            
+    background-color: #0A0A0A;
+   
+}
+.heading{
+    font-family: 'Magnetar', sans-serif ;   
+}
+p{
+    font-family: 'Rajdhani', sans-serif;  
+}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .animated-bg {
+    background: linear-gradient(45deg, #585756, #000000, #0a0205, #6e6969, #000000);
+    background-size: 300% 300%;
+    animation: gradientAnimation 6s ease infinite;
+    height: 100vh; /* Full-screen height */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+    text-align: center;
+  }
