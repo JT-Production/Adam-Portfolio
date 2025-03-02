@@ -25,11 +25,11 @@ const Hero = () => {
             easy to understand. Join me on this journey as we shape the future
             of digital finance and decentralized communities.
           </p>
-          <div className="flex gap-2">
-          <Button text={<FaXTwitter/>} link={'https://x.com/@AdamBitcoinP2P1'}/> 
-          <Button text={<FaTelegram/>} link={'https://t.me/AdamBitcoinDiary'} />
-          <Button text={<FaYoutube/>} link={'https://youtube.com/@AdamBitcoinP2P1'}/> 
-          <Button text={<FaTiktok/>} link={'https://tiktok.com/@AdamBitcoinP2P1'} />
+          <div className="flex gap-4">
+          <Button classNam="gradient-btn" text={<FaXTwitter className="text-lg"/>} link={'https://x.com/@AdamBitcoinP2P1'}/> 
+          <Button classNam="gradient-btn" text={<FaTelegram className="text-lg"/>} link={'https://t.me/AdamBitcoinDiary'} />
+          <Button classNam="gradient-btn" text={<FaYoutube className="text-lg"/>} link={'https://youtube.com/@AdamBitcoinP2P1'}/> 
+          <Button classNam="gradient-btn" text={<FaTiktok className="text-lg"/>} link={'https://tiktok.com/@AdamBitcoinP2P1'} />
           </div>
         </div>
       </div>

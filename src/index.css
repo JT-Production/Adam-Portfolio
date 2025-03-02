@@ -14,8 +14,8 @@ body{
 .heading{
     font-family: 'Magnetar', sans-serif ;   
 }
-p{
-    font-family: 'Rajdhani', sans-serif;  
+p,.para{
+    font-family: 'DM sans', sans-serif;  
 }
 @keyframes gradientAnimation {
     0% { background-position: 0% 50%; }
@@ -24,7 +24,9 @@ p{
   }
   
   .animated-bg {
-    background: linear-gradient(45deg, #585756, #000000, #0a0205, #6e6969, #000000);
+    background: linear-gradient(-45deg, #585756, #000000, #0a0205, #6e6969, #000000);
+    /* background: linear-gradient(-135deg, #FF8C00, #7D00FF); */
+    /* background-image: linear-gradient(to right top, #020202, #0A0A0A,  #0A0A0A, #ff8c00, #d64d47); */
     background-size: 300% 300%;
     animation: gradientAnimation 6s ease infinite;
     height: 100vh; /* Full-screen height */
@@ -34,3 +36,35 @@ p{
     color: white;
     text-align: center;
   }
+.gradient-btn {
+    background: linear-gradient(-135deg, #FF8C00, #7D00FF);
+
+  color: white;
+  padding: 16px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.gradient-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(255, 140, 0, 0.3);
+}
+
+.leBlurIn span { 
+  animation-name: leBlurIn;
+  animation-duration: 2s!important;
+  /* animation-delay: 0.2s!important; */
+}
+@keyframes leBlurIn {
+    from {
+        transform: scaleX(0.2);
+        filter: blur(20px);
+        opacity: 0;
+        
+    }
+}
