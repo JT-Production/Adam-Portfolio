@@ -4,15 +4,15 @@ import { FaXTwitter, FaTiktok,  FaYoutube, FaTelegram } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className=" p-12 h-screen flex justify-center items-center mt-28 lg:mt-19">
+    <div className="p-12 h-screen flex justify-center items-center mt-28 lg:mt-19" id="about">
       <div className="grid lg:grid-cols-2 gap-10">
         <div className="bg-zinc-900 w-8/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end">
          
          <center> <img src={Avatar} alt="" className="w-96 h-auto -rotate-4 rounded-2xl " /></center>
         </div>
         <div className="">
-        <h1 className="heading text-white text-3xl py-4">About Me</h1>
-          <p className="text-white text-lg">
+        <h1 className="heading text-white text-3xl py-4 ">About Me</h1>
+          <p className="text-white text-[16px] ">
             I'm <span className="text-amber-500 ">Adam</span>, a passionate crypto enthusiast,
             content creator, and community builder. I explore the ever-evolving
             world of blockchain, sharing insights, strategies, and opportunities
