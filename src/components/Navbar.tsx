@@ -49,8 +49,8 @@ const Navbar = () => {
             <a className={`lg:hidden ${display === "hidden" ? "block" : "hidden"}`} onClick={() => handleClick()}>
             <IoIosMenu className="text-2xl" />
             </a>
-            <a className={`lg:hidden ${display === "hidden" ? "hidden" : "block"} bg-black p-2 rounded-4xl`} onClick={() => handleClick()}>
-            <LiaTimesSolid className="text-2xl" />
+            <a className={`lg:hidden ${display === "hidden" ? "hidden" : "block"} bg-white p-2 rounded-4xl`} onClick={() => handleClick()}>
+            <LiaTimesSolid className="text-2xl text-black" />
             </a>
         </div>
       </div>
