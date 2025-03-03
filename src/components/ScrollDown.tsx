@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const ScrollDown = () => {
   return (
     <>
-      <div className="flex justify-center items-center  h-16 lg:py-28 py-50">
+      <div className="flex justify-center items-center  h-16 lg:py-10 py-20">
         <center>
         <Link to="about" smooth={true} duration={700}>
           <a href="" className="w-100 hover:text-amber-500 transition duration-300 ease-in-out">

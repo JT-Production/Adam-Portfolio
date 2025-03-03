@@ -3,10 +3,10 @@
 const BannerSection = () => {
   return (
   <>
-      <div className="h-8/12 flex justify-center items-center">
+      <div className="h-8/12 lg:h-8/12 flex justify-center items-center">
     <div className="   text-white ">
-        <h1 className="font-extrabold lg:text-5xl text-[22px]  lg:leading-16 heading mb-10  cssanimation leBlurIn sequence">ADAM BITCOIN</h1>
-        <p className="text-center lg:text-sm text-[10px] flex justify-between px-5 gap-4">
+      <center>  <h1 className="font-extrabold pt-2 lg:text-5xl text-[25px] lg:w-fit w-58 text-center text-base/8 lg:leading-16 heading mb-8  cssanimation leBlurIn sequence">ADAM BITCOIN</h1> </center>
+        <p className="text-center lg:text-sm text-[11px]  flex justify-between px-5 gap-4">
           <span data-aos="fade-up"  data-aos-duration="1000">A Crypto Enthusiast </span>
           <span data-aos="fade-up"  data-aos-duration="2000">Content Creator</span>
           <span data-aos="fade-up"  data-aos-duration="3000">Community Builder</span>

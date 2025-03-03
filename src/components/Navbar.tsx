@@ -12,17 +12,17 @@ const Navbar = () => {
   }
   return (
     <>
-      <div className="nav flex justify-between items-center  align-center p-4 align-baseline">
+      <div className="nav flex justify-between items-center  align-center p-4 py-6 align-baseline">
         <div className="flex ms-3">
           <div className="logo lg:text-3xl text-xl text-white heading">Adam</div>
           <div className="">
-            <BsCurrencyBitcoin className="text-orange-400 lg:text-4xl text-xl" />
+            <BsCurrencyBitcoin className="text-orange-400 lg:text-4xl text-2xl mt-1" />
           </div>
         </div>
         <div
           data-aos="fade-down"
           data-aos-duration="1000"
-          className="flex justify-between  items-center right-0 font-bold lg:gap-8 gap-3 px-3 py-3 para lg:text-sm text-[10px] lg:heading backdrop-filter backdrop-blur-lg fixed bg-whit bg-opacity-30  lg:px-6 lg:py-4 rounded-4xl border-1 border-gray-200 me-3"
+          className="flex justify-between  items-center right-0 font-bold lg:gap-8 gap-3 px-3 py-3 para lg:text-sm text-[12px] lg:heading backdrop-filter backdrop-blur-lg fixed bg-whit bg-opacity-30  lg:px-6 lg:py-4 rounded-4xl border-1 border-gray-200 me-3"
         >
        
           <Link to="about" smooth={true} duration={500} href="" className={`${display} lg:block cursor-pointer`}>
@@ -47,10 +47,10 @@ const Navbar = () => {
             <FaTelegram className="text-lg" />
           </a>
             <a className={`lg:hidden ${display === "hidden" ? "block" : "hidden"}`} onClick={() => handleClick()}>
-            <IoIosMenu className="text-xl" />
+            <IoIosMenu className="text-2xl" />
             </a>
-            <a className={`lg:hidden ${display === "hidden" ? "hidden" : "block"}`} onClick={() => handleClick()}>
-            <LiaTimesSolid className="text-xl" />
+            <a className={`lg:hidden ${display === "hidden" ? "hidden" : "block"} bg-black p-2 rounded-4xl`} onClick={() => handleClick()}>
+            <LiaTimesSolid className="text-2xl" />
             </a>
         </div>
       </div>
