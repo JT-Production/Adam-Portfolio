@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="p-12 h-screen flex justify-center items-center my-48 lg:mt-19" id="about">
       <div className="grid lg:grid-cols-2 gap-10">
-        <div className="bg-zinc-900 w-8/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end">
+        <div className="bg-zinc-800 w-8/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end">
          
          <center> <img src={Avatar} alt="" className="w-96 h-auto -rotate-4 rounded-2xl " /></center>
         </div>

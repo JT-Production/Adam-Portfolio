@@ -1,5 +1,6 @@
 import BannerSection from "./components/BannerSection";
 import Hero from "./components/Hero";
+import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 import ScrollDown from "./components/ScrollDown";
 import YoutubeTimeline from "./components/YoutubeTimeline";
@@ -7,7 +8,9 @@ import YoutubeTimeline from "./components/YoutubeTimeline";
 const App = () => {
   return (
     <>
+
       <div className="animated-bg">
+        <Loader/>
         <Navbar />
         <BannerSection />
         <ScrollDown />
