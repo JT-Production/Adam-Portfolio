@@ -15,12 +15,12 @@ const Navbar = () => {
   return (
     <>
       <div className="nav flex justify-between items-center  align-center p-4 py-6 align-center">
-        <div className="flex ms-3 gap-2 align-center">
+        <a href="" className="flex ms-3 gap-2 align-center cursor-pointer ">
         <img src={Avatar} alt="" className="w-12 h-auto rounded-full " />
           <div className="logo lg:text-3xl text-xl text-white heading mt-1.5">Adam</div>
   
        
-        </div>
+        </a>
         <div
           data-aos="fade-down"
           data-aos-duration="1000"

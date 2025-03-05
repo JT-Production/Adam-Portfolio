@@ -1,4 +1,6 @@
-// import rocket from '../assets/img/hero-1-1.jpg'
+import rocket from '../assets/img/hero-1-1.jpg'
+// import btc from '../assets/img/IMG_3805.png'
+import btc3 from '../assets/img/why_1-1.png'
 
 const BannerSection = () => {
   return (
@@ -12,7 +14,7 @@ const BannerSection = () => {
             </h1>{" "}
           </center>
           <p className="text-center lg:text-sm text-[11px]  flex justify-between px-5 gap-4 para">
-            <span data-aos="fade-up" data-aos-duration="1000">
+            <span data-aos="fade-up" data-aos-duration="1000" className="">
               A Crypto Enthusiast{" "}
             </span>
             <span data-aos="fade-up" data-aos-duration="2000">
@@ -23,11 +25,15 @@ const BannerSection = () => {
             </span>
           </p>
 
-          {/* <div className='me-auto'>
-        <img src={rocket} alt=""  className="h-32 "/>
-        </div> */}
+          
         </div>
       </div>
+      <div className=' relative btc-container'>
+        <img src={rocket} alt=""  className="btc h-38 absolute bottom-0  right-40 "/>
+        </div>
+        <div className=' relative btc-container'>
+        <img src={btc3} alt=""  className="btc h-32 absolute bottom-70  left-40 "/>
+        </div>
     </>
   );
 };

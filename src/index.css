@@ -142,8 +142,9 @@ z-index: 9999;
     100% { background-position: 0% 50%; }
   }
   
+
   .animated-bg {
-    background: linear-gradient(-45deg, #585756, #000000, #0a0205, #6e6969, #000000);
+    background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #6e6969, #0A0A0A);
     /* background: linear-gradient(-135deg, #FF8C00, #7D00FF); */
     /* background-image: linear-gradient(to right top, #020202, #0A0A0A,  #0A0A0A, #ff8c00, #d64d47); */
     background-size: 300% 300%;
@@ -184,3 +185,25 @@ z-index: 9999;
     }
 }
 
+.btc{
+  /* width: 320px;
+  height: 320px; */
+  cursor: pointer;
+  text-indent: 0px 0px 20px #FFCA2C,
+  0px 0px 20px #FFCA2C,
+  0px 0px 20px #FFCA2C,
+  0px 0px 20px #FFCA2C
+  ;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the float height */
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

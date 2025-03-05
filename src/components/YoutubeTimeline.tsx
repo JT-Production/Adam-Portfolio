@@ -13,7 +13,8 @@ const YoutubeTimeline = () => {
       ></iframe> */}
     
 <script src="https://static.elfsight.com/platform/platform.js" async></script>
-<div className="elfsight-app-fdd47f12-7435-4691-bd9d-38775f1a3e26" data-elfsight-app-lazy></div>
+<div className="elfsight-app-fdd47f12-7435-4691-bd9d-38775f1a3e26 text-white" data-elfsight-app-lazy></div>
+d
     </div>
   );
 };
