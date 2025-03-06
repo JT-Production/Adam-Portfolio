@@ -6,13 +6,13 @@ const Hero = () => {
   return (
     <div className="p-12 h-screen flex justify-center items-center my-48 lg:mt-19" id="about">
       <div className="grid lg:grid-cols-2 gap-10">
-        <div className="bg-zinc-800 w-8/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end">
+        <div className="bg-zinc-800 lg:w-8/12 w-8/12 md:w-6/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end" data-aos="fade-right" data-aos-duration="3000">
          
          <center> <img src={Avatar} alt="" className="w-96 h-auto -rotate-4 rounded-2xl " /></center>
         </div>
         <div className="">
-        <h1 className="heading text-white lg:text-3xl text-2xl py-4 ">About Me</h1>
-          <p className="text-white lg:text-[16px]  text-sm">
+        <h1 className="heading text-white lg:text-3xl text-2xl py-4 " data-aos="fade-up" data-aos-duration="1000">About Me</h1>
+          <p className="text-white lg:text-[16px]  text-sm" data-aos="fade-up" data-aos-duration="1500">
             I'm <span className="text-amber-500 ">Adam</span>, a passionate crypto enthusiast,
             content creator, and community builder. I explore the ever-evolving
             world of blockchain, sharing insights, strategies, and opportunities
@@ -25,11 +25,11 @@ const Hero = () => {
             easy to understand. Join me on this journey as we shape the future
             of digital finance and decentralized communities.
           </p>
-          <div className="flex gap-4">
-          <Button classNam="gradient-btn" text={<FaXTwitter className="text-lg"/>} link={'https://x.com/@AdamBitcoinP2P1'}/> 
-          <Button classNam="gradient-btn" text={<FaTelegram className="text-lg"/>} link={'https://t.me/AdamBitcoinDiary'} />
-          <Button classNam="gradient-btn" text={<FaYoutube className="text-lg"/>} link={'https://youtube.com/@AdamBitcoinP2P1'}/> 
-          <Button classNam="gradient-btn" text={<FaTiktok className="text-lg"/>} link={'https://tiktok.com/@AdamBitcoinP2P1'} />
+          <div className="flex gap-4" data-aos="fade-right" data-aos-duration="1000" >
+          <Button classNam="gradient-btn" text={<FaXTwitter className="text-lg"/>}  link={'https://x.com/@AdamBitcoinP2P1'}/> 
+          <Button classNam="gradient-btn" text={<FaTelegram className="text-lg"/>}  link={'https://t.me/AdamBitcoinDiary'} />
+          <Button classNam="gradient-btn" text={<FaYoutube className="text-lg"/>}  link={'https://youtube.com/@AdamBitcoinP2P1'}/> 
+          <Button classNam="gradient-btn" text={<FaTiktok className="text-lg"/>}  link={'https://tiktok.com/@AdamBitcoinP2P1'} />
           </div>
         </div>
       </div>

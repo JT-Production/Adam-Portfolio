@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       <div className="nav flex justify-between items-center  align-center p-4 py-6 align-center">
-        <a href="" className="flex ms-3 gap-2 align-center cursor-pointer ">
+        <a href="" className="flex ms-3 gap-2 align-center cursor-pointer " data-aos="fade-right" data-aos-duration="2000">
         <img src={Avatar} alt="" className="w-12 h-auto rounded-full " />
           <div className="logo lg:text-3xl text-xl text-white heading mt-1.5">Adam</div>
   
@@ -24,7 +24,7 @@ const Navbar = () => {
         <div
           data-aos="fade-down"
           data-aos-duration="1000"
-          className="flex justify-between  items-center right-0 font-bold lg:gap-8 gap-3 px-3 py-3 para lg:text-sm text-[12px] lg:heading backdrop-filter backdrop-blur-lg fixed bg-white/5 bg-opacity-30  lg:px-6 lg:py-4 rounded-4xl border- border-gray-200 me-3"
+          className="flex justify-between  items-center right-0 font-bold lg:gap-8 gap-3 px-3 py-3 para lg:text-sm text-[13px] lg:heading backdrop-filter backdrop-blur-lg fixed bg-white/5 bg-opacity-30  lg:px-6 lg:py-4 rounded-4xl border- border-gray-200 me-3"
         >
        
           <Link to="about" smooth={true} duration={500}  className={`${display} lg:block cursor-pointer`}>

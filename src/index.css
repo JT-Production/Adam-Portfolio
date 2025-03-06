@@ -144,7 +144,7 @@ z-index: 9999;
   
 
   .animated-bg {
-    background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #6e6969, #0A0A0A);
+    background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #000000, #0A0A0A);
     /* background: linear-gradient(-135deg, #FF8C00, #7D00FF); */
     /* background-image: linear-gradient(to right top, #020202, #0A0A0A,  #0A0A0A, #ff8c00, #d64d47); */
     background-size: 300% 300%;
@@ -205,5 +205,64 @@ z-index: 9999;
   }
   100% {
     transform: translateY(0px);
+  }
+}
+
+.btc2{
+  /* width: 320px;
+  height: 320px; */
+  cursor: pointer;
+  text-indent: 0px 0px 20px #FFCA2C,
+  0px 0px 20px #FFCA2C,
+  0px 0px 20px #FFCA2C,
+  0px 0px 20px #FFCA2C
+  ;
+  animation: floatx 8s ease-in-out infinite;
+}
+@keyframes floatx {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-20px); /* Adjust the float height */
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.glow {
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  border-radius: 100%;
+  background-color: #FF8C00 ;
+  filter: blur(60px);
+  mix-blend-mode: screen;
+  /* Glowing effect */
+  pointer-events: none;
+  /* Allow interaction with underlying elements */
+  transform: translate(0%, -10%);
+  transition: all ease-in-out 0.3s;
+  transition: width 0.2s ease, height 0.2s ease;
+  z-index: 9999;
+  animation: color 6s ease infinite;
+}
+@keyframes color {
+  0% {
+    background-color: #FF8C00;
+  }
+  50% {
+    background-color: #7D00FF;
+  }
+  100% {
+    background-color: #FF8C00;
+  }
+}
+
+@media (max-width: 768px) {
+  .glow {
+    width: 300px;
+    height: 200px;
   }
 }

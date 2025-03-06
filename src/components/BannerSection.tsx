@@ -5,15 +5,15 @@ import btc3 from '../assets/img/why_1-1.png'
 const BannerSection = () => {
   return (
     <>
-      <div className="h-8/12 lg:h-8/12 flex justify-center items-center">
+      <div className="h-[450px] lg:h-8/12 md:h-8/12 flex justify-center items-center">
         <div className="   text-white ">
           <center>
             {" "}
-            <h1 className=" font-extrabold pt-2 lg:text-5xl text-[25px] lg:text-[150px] lg:w-fit w-58 text-center text-base/8 lg:leading-16 heading mb-10 cssanimation leBlurIn sequence">
+            <h1 className=" font-extrabold pt-2 lg:text-5xl  lg:text-[150px] lg:w-fit md:text-[110px]   text-center text-6xl/8 lg:leading-16 heading mb-10 cssanimation leBlurIn sequence">
               ADAM BITCOIN
             </h1>{" "}
           </center>
-          <p className="text-center lg:text-sm text-[11px]  flex justify-between px-5 gap-4 para">
+          <p className="text-center lg:text-sm text-[11px] md:text-sm  flex justify-between px-5 gap-4 para">
             <span data-aos="fade-up" data-aos-duration="1000" className="">
               A Crypto Enthusiast{" "}
             </span>
@@ -27,12 +27,13 @@ const BannerSection = () => {
 
           
         </div>
+        <div className="glow"></div>
       </div>
       <div className=' relative btc-container'>
-        <img src={rocket} alt=""  className="btc h-38 absolute bottom-0  right-40 "/>
+        <img src={rocket} alt=""  className="btc lg:h-38 md:h-38 h-20 absolute lg:bottom-0 bottom-15  lg:right-40 right-5 md:right-20 md:bottom-30"/>
         </div>
         <div className=' relative btc-container'>
-        <img src={btc3} alt=""  className="btc h-32 absolute bottom-70  left-40 "/>
+        <img src={btc3} alt=""  className="btc2 h-12 absolute bottom-70 lg:hidden md:hidden block  left-10 "/>
         </div>
     </>
   );
