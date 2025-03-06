@@ -5,9 +5,11 @@
     font-family:"taknaf";
     src: url('./assets/fonts/TeknafRegular-rv0aB.otf');
 }
-                
+html{
+  scroll-behavior: smooth!important;  
+}           
 body{
-    scroll-behavior: smooth!important;            
+    overflow-x: hidden;     
     background-color: #0A0A0A;
    
 }
