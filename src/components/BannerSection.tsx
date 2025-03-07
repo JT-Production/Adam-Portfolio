@@ -9,8 +9,9 @@ const BannerSection = () => {
         <div className="   text-white ">
           <center>
             {" "}
-            <h1 className=" font-extrabold pt-2 lg:text-5xl  lg:text-[150px] lg:w-fit md:text-[110px]   text-center text-6xl/8 lg:leading-16 heading mb-10 cssanimation leBlurIn sequence">
-              ADAM BITCOIN
+         
+            <h1 className=" font-extrabold pt-2  lg:text-[150px] lg:w-fit md:text-[110px]   text-center text-6xl/8 lg:leading-16 heading mb-10 cssanimation leBlurIn sequence">
+             <span> ADAM BITCOIN</span>
             </h1>{" "}
           </center>
           <p className="text-center lg:text-sm text-[11px] md:text-sm  flex justify-between px-5 gap-4 para">

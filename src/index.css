@@ -7,7 +7,31 @@
 }
 html{
   scroll-behavior: smooth!important;  
-}           
+} 
+
+:root::-webkit-scrollbar {
+  border: none;
+  width: 7px;
+  height: 7px;
+}
+
+:root::-webkit-scrollbar-track {
+  background: #181818;
+}
+
+:root::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: var(--prycol);
+}
+
+:root::-webkit-scrollbar-thumb:hover {
+  color: #463d00;
+}
+
+:root::-webkit-scrollbar-button {
+  display: none;
+
+}          
 body{
     overflow-x: hidden;     
     background-color: #0A0A0A;
@@ -178,14 +202,17 @@ z-index: 9999;
 }
 
 
-.leBlurIn span { animation-name: leBlurIn }
+
+.leBlurIn span { animation-name: leBlurIn;
+animation-duration: 3s;
+}
 @keyframes leBlurIn {
     from {
         transform: scaleX(0.2);
         filter: blur(20px);
         opacity: 0;
     }
-}
+} 
 
 .btc{
   /* width: 320px;
@@ -268,3 +295,4 @@ z-index: 9999;
     height: 200px;
   }
 }
+
