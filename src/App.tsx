@@ -4,6 +4,7 @@ import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 import ScrollDown from "./components/ScrollDown";
 import YoutubeTimeline from "./components/YoutubeTimeline";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       </div>
       <Hero />
       <YoutubeTimeline />
+      <Footer />
     </>
   );
 };

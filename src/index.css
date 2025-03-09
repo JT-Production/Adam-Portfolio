@@ -73,7 +73,7 @@ p,.para{
 }
 .loader{
   
-  
+ 
 z-index: 9999;
 }
 .loader .box {
@@ -170,7 +170,7 @@ z-index: 9999;
   
 
   .animated-bg {
-    background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #000000, #0A0A0A);
+    background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #000000, #0a0a0a51);
     /* background: linear-gradient(-135deg, #FF8C00, #7D00FF); */
     /* background-image: linear-gradient(to right top, #020202, #0A0A0A,  #0A0A0A, #ff8c00, #d64d47); */
     background-size: 300% 300%;
@@ -183,8 +183,9 @@ z-index: 9999;
     text-align: center;
   }
 .gradient-btn {
-    background: linear-gradient(-135deg, #FF8C00, #7D00FF);
-
+    /* background: linear-gradient(-135deg, #FF8C00, #7D00FF);
+     */
+  background-color: #ff8c00e8;
   color: white;
   padding: 16px 16px;
   font-size: 16px;
@@ -198,7 +199,7 @@ z-index: 9999;
 
 .gradient-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0px 4px 15px rgba(255, 140, 0, 0.3);
+  box-shadow: 0px 4px 15px rgba(255, 140, 0, 0.792);
 }
 
 
@@ -274,7 +275,7 @@ animation-duration: 3s;
   transform: translate(0%, -10%);
   transition: all ease-in-out 0.3s;
   transition: width 0.2s ease, height 0.2s ease;
-  z-index: 9999;
+  z-index: 1;
   animation: color 6s ease infinite;
 }
 @keyframes color {

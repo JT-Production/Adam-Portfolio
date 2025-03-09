@@ -1,4 +1,3 @@
-// import { BsCurrencyBitcoin } from "react-icons/bs";
 import { FaXTwitter, FaYoutube, FaTelegram } from "react-icons/fa6";
 import { Link } from "react-scroll";
 import { IoIosMenu } from "react-icons/io";
@@ -17,7 +16,7 @@ const Navbar = () => {
       <div className="nav flex justify-between items-center  align-center p-4 py-6 align-center">
         <a href="" className="flex ms-3 gap-2 align-center cursor-pointer " data-aos="fade-right" data-aos-duration="2000">
         <img src={Avatar} alt="" className="w-12 h-auto rounded-full " />
-          <div className="logo lg:text-3xl text-xl text-white heading mt-1.5">Adam</div>
+          <div className="logo lg:text-3xl text-xl text-white heading lg:mt-1.5 mt-2.5">Adam</div>
   
        
         </a>
@@ -37,13 +36,13 @@ const Navbar = () => {
           </div>
          
           </Link>
-          <a href="" className={`${display} lg:block`}>
+          <Link to="contact" smooth={true} duration={500}  href="" className={`${display} lg:block`}>
             Contact
-          </a>
-          <a href="" className={`${display} lg:block`}>
+          </Link>
+          <a href="https://x.com/@AdamBitcoinP2P1" className={`${display} lg:block`}>
             <FaXTwitter className="text-lg" />
           </a>
-          <a href="" className={`${display} lg:block`}>
+          <a href="https://t.me/AdamBitcoinChat" className={`${display} lg:block`}>
             <FaTelegram className="text-lg" />
           </a>
             <a className={`lg:hidden ${display === "hidden" ? "block" : "hidden"}`} onClick={() => handleClick()}>
