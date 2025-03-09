@@ -69,7 +69,7 @@ p,.para{
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 8s;
+  transition: 4s;
 }
 .loader{
   

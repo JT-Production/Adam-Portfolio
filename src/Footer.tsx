@@ -17,7 +17,7 @@ const Footer = () => {
               Telegram
             </a>
             <a href="https://youtube.com/@AdamBitcoinP2P1" className="text-white lg:text-lg text-sm" style={{ color: "#FF8C00" }}>
-              Instagram
+              Youtube
             </a>
             <a href="https://tiktok.com/@AdamBitcoinP2P1" className="text-white lg:text-lg text-sm" style={{ color: "#FF8C00" }}>
               Tiktok
