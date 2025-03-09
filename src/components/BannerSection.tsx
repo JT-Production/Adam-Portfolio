@@ -15,7 +15,7 @@ const BannerSection = () => {
             <span className='cssanimation leBlurIn sequence'>ADAM</span> <BsCurrencyBitcoin  className='lg:-translate-y-11 lg:translate-x-5 -translate-y-4 translate-x-2.5'/><span className='cssanimation leBlurIn sequence '>ITCOIN</span>
             </h1>{" "}
           </center>
-          <p className="text-center lg:text-sm text-[11px] md:text-sm  flex justify-between px-5 gap-4 para">
+          <p className="text-center lg:text-sm text-[12px] md:text-sm  flex justify-between px-5 gap-4 para">
             <span data-aos="fade-up" data-aos-duration="1000" className="">
             Ex-Bitcoin Maximalist{" "}
             </span>

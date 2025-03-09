@@ -170,7 +170,7 @@ z-index: 9999;
   
 
   .animated-bg {
-    background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #000000, #0a0a0a51);
+    background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #000000, #23232351);
     /* background: linear-gradient(-135deg, #FF8C00, #7D00FF); */
     /* background-image: linear-gradient(to right top, #020202, #0A0A0A,  #0A0A0A, #ff8c00, #d64d47); */
     background-size: 300% 300%;
