@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
 
-      <div className="animated-bg">
+      <div className="animated-bg lg:h-svh h-fit">
         <Loader/>
         <Navbar />
         <BannerSection />

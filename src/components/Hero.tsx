@@ -5,12 +5,12 @@ import { FaXTwitter, FaTiktok, FaYoutube, FaTelegram } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div
-      className="p-12 h-screen flex justify-center items-center my-48 lg:mt-19"
+      className="p-12 h-screen flex justify-center items-center my-48 lg:mt-19 z-20"
       id="about"
     >
       <div className="grid lg:grid-cols-2 gap-10">
         <div
-          className="bg-zinc-800 lg:w-8/12 w-8/12 md:w-6/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end"
+          className="bg-zinc-800 lg:w-8/12 w-8/12 md:w-6/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end z-30"
           style={{background: '#27272a'}}
           data-aos="fade-right"
           data-aos-duration="3000"

@@ -1,7 +1,7 @@
 const YoutubeTimeline = () => {
   return (
     <div className="p-10 mt-32 lg:mt-10" id="channel">
-      <iframe
+      {/* <iframe
         src="https://widget.tagembed.com/2156596"
         style={{
           width: "100%",
@@ -10,7 +10,7 @@ const YoutubeTimeline = () => {
           overflow: "none",
         }}
         className="overflow-y-hidden"
-      ></iframe>
+      ></iframe> */}
       {/* <script
         src="https://static.elfsight.com/platform/platform.js"
         async
