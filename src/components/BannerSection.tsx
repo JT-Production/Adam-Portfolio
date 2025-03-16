@@ -16,7 +16,7 @@ const BannerSection = () => {
             <div className="flex p-0 m-0">
               {/* <BsCurrencyBitcoin  className='p-0 me-8'/> */}
               <span className="lg:text-9xl text-8xl font-bold flex ">
-               <BsCurrencyBitcoin  className='-translate-x-6'/> <div className='lg:-translate-x-12 -translate-x-10 cssanimation leBlurIn sequence '>ITCOIN</div>
+               <BsCurrencyBitcoin  className='-translate-x-6'/> <div className='lg:-translate-x-12 -translate-x-12 translate-y-2 cssanimation leBlurIn sequence '>ITCOIN</div>
               </span>
             </div>
           </h1>
