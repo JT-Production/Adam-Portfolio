@@ -1,6 +1,6 @@
 import Spline from "@splinetool/react-spline";
 import threeD from "../assets/vid/chips.mp4";
-// import { BsCurrencyBitcoin } from "react-icons/bs";
+import { BsCurrencyBitcoin } from "react-icons/bs";
 // import Button from "./Button";
 
 const BannerSection = () => {
@@ -15,19 +15,20 @@ const BannerSection = () => {
             </span>
             <div className="flex p-0 m-0">
               {/* <BsCurrencyBitcoin  className='p-0 me-8'/> */}
-              <span className="cssanimation leBlurIn sequence lg:text-9xl text-8xl font-bold">
-                BITCOIN
+              <span className="lg:text-9xl text-8xl font-bold flex ">
+               <BsCurrencyBitcoin  className='-translate-x-6'/> <div className='lg:-translate-x-12 -translate-x-10 cssanimation leBlurIn sequence '>ITCOIN</div>
               </span>
             </div>
-          </h1>{" "}
+          </h1>
           <p className="text-start w-68 lg:text-md text-sm lg:w-auto mb-3">
             I teach marketing strategies , build thriving communities, create
             content around all things crypto— helping and individual grow with
             impact.
           </p>
           {/* <Button text='Learn More' link='' classNam='float-left' /> */}
-          <button
-            className="cursor-pointer float-left bg-gradient-to-b mt-3 from--500 to--600  lg:px-10 lg:py-3 px-5 py-2 rounded-full border-[1px] border-orange-500 text-white font-medium group"
+          <a 
+           href="https://t.me/AdamBitcoinP2P1"
+            className="cursor-pointer float-left bg-gradient-to-b mt-3 from--500 to--600  lg:px-8 lg:py-2 px-5 py-2 rounded-full border-[1px] border-orange-500 text-white font-medium group"
             style={{ border: "1px solid #FFA500" }}
           >
             <div className="relative overflow-hidden">
@@ -38,7 +39,7 @@ const BannerSection = () => {
                 Get in touch
               </p>
             </div>
-          </button>
+          </a>
         </div>
         <div className=" lg:flex justify-end align-end hidden">
           <div className="">

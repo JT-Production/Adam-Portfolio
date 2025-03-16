@@ -1,4 +1,4 @@
-import { FaXTwitter, FaYoutube, FaTelegram } from "react-icons/fa6";
+import {  FaYoutube} from "react-icons/fa6";
 import { Link } from "react-scroll";
 import { IoIosMenu } from "react-icons/io";
 import { LiaTimesSolid } from "react-icons/lia";
@@ -46,12 +46,12 @@ const Navbar = () => {
           <Link to="contact" smooth={true} duration={500}  href="" className={`${display} lg:block`}>
             Contact
           </Link>
-          <a href="https://x.com/@AdamBitcoinP2P1" className={`${display} lg:block`}>
+          {/* <a href="https://x.com/@AdamBitcoinP2P1" className={`${display} lg:block`}>
             <FaXTwitter className="text-lg" />
           </a>
           <a href="https://t.me/AdamBitcoinChat" className={`${display} lg:block`}>
             <FaTelegram className="text-lg" />
-          </a>
+          </a> */}
             <a className={`lg:hidden ${display === "hidden" ? "block" : "hidden"}`} onClick={() => handleClick()}>
             <IoIosMenu className="text-2xl" />
             </a>
