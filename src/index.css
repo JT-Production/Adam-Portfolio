@@ -351,9 +351,23 @@ animation-duration: 3s;
   }
   
 }
-@media (max-width: 768px) and (max-width: 480px) {
-  .glow {
-    width: 280px !important;
-    height: 200px !important;
+
+  @media screen and (max-width: 768px) {
+    .glow, .glow2 {
+      width: 280px !important;
+      height: 200px !important;
+    }
   }
-}
+
+  @media screen and (max-width: 480px) {
+    .glow, .glow2 {
+      width: 200px !important;
+      height: 150px !important;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .glow, .glow2 {
+      width: 150px !important;
+      height: 100px !important;
+    }
+  }
