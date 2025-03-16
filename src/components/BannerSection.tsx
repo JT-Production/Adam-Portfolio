@@ -21,11 +21,15 @@ const BannerSection = () => {
             </div>
           </h1>{" "}
           <p className="text-start w-68 lg:text-md text-sm lg:w-auto mb-3">
-            I teach marketing strategies and help grow thriving communities. I'm
-            also a content creator focused on everything crypto.
+            I teach marketing strategies , build thriving communities, create
+            content around all things crypto— helping and individual grow with
+            impact.
           </p>
           {/* <Button text='Learn More' link='' classNam='float-left' /> */}
-          <button className="cursor-pointer float-left bg-gradient-to-b mt-3 from--500 to--600  lg:px-10 lg:py-3 px-5 py-2 rounded-full border-[1px] border-orange-500 text-white font-medium group" style={{border:'1px solid #FFA500'}}>
+          <button
+            className="cursor-pointer float-left bg-gradient-to-b mt-3 from--500 to--600  lg:px-10 lg:py-3 px-5 py-2 rounded-full border-[1px] border-orange-500 text-white font-medium group"
+            style={{ border: "1px solid #FFA500" }}
+          >
             <div className="relative overflow-hidden">
               <p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg">
                 Get in touch
@@ -79,24 +83,28 @@ const BannerSection = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="2000"
-              className="a cursor-pointer  lg:block hidden hover:translate-x-20 transition delay-150 duration-300 ease-in-out blur-box text-white  translate-y-72 translate-x-125 p-3 border rounded-xl w-41 bg-white/5  shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
+              className="a cursor-pointer  lg:block hidden  transition delay-150 duration-300 ease-in-out blur-box text-white  translate-y-72 translate-x-125 p-3 border rounded-xl w-41 bg-white/5  shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
             >
               {/* <h6 className='heading text-start font-bold mb-2'> Community builder</h6> */}
               <p className="para  text-sm font text-start">
-              Ex-Bitcoin Maximalist
+                Ex-Bitcoin Maximalist
               </p>
               {/* <br /> Guiding passionate builders  in creating thriving communities. */}
               <p></p>
             </div>
-
           </div>
           <Spline
             scene="https://prod.spline.design/iX9i2b5SK-JxmPus/scene.splinecode"
             className="three-d lg:w-[1000px]  lg:h-[500px] lg:block hidden"
           />
-            <video src={threeD} autoPlay loop muted  className=" object-cover lg:hidden block h-100"></video>
-          
-        
+          <video
+            src={threeD}
+            autoPlay
+            loop
+            muted
+            className=" object-cover lg:hidden block h-100"
+          ></video>
+
           {/* <Spline scene="https://prod.spline.design/IhDXjrf2RJyfcQ3b" className="3d"/> */}
         </div>
       </div>
