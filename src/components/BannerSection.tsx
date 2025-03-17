@@ -17,7 +17,7 @@ const BannerSection = () => {
             <div className="flex p-0 m-0">
               {/* <BsCurrencyBitcoin  className='p-0 me-8'/> */}
               <span className="lg:text-9xl text-7xl font-bold flex ">
-               <BsCurrencyBitcoin  className='-translate-x-6 -translate-y-1 lg:relative md:relative absolute ' style={{color: 'orange'}}/> <div className='lg:-translate-x-12 cssanimation leBlurIn sequence lg:ms-0 md:ms-0 ms-8 '>ITCOIN</div>
+               <BsCurrencyBitcoin  className='-translate-x-6 -translate-y-1 lg:relative md:relative absolute ' style={{color: 'orange'}}/> <div className='lg:-translate-x-12 cssanimation leBlurIn sequence lg:ms-0 md:ms-0 ms-9 '>ITCOIN</div>
               </span>
             </div>
           </h1>
