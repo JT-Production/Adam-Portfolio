@@ -171,8 +171,8 @@ z-index: 9999;
   
 
   .animated-bg {
-    /* background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #000000, #23232351); */
-    background: black;
+    background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #000000, #23232351);
+    /* background: black;  */
     
     /* background: linear-gradient(-135deg, #FF8C00, #7D00FF); */
     /* background-image: linear-gradient(to right top, #020202, #0A0A0A,  #0A0A0A, #ff8c00, #d64d47); */
@@ -354,20 +354,20 @@ animation-duration: 3s;
 
   @media (max-width: 768px) {
     .glow, .glow2 {
-      width: 280px !important;
-      height: 200px !important;
+      width: 200px !important;
+      height: 100px !important;
     }
   }
 
   @media  (max-width: 480px) {
     .glow, .glow2 {
-      width: 200px !important;
-      height: 150px !important;
+      width: 150px !important;
+      height: 100px !important;
     }
   }
   @media (max-width: 320px) {
     .glow, .glow2 {
-      width: 150px !important;
-      height: 100px !important;
+      width: 100px !important;
+      height: 500px !important;
     }
   }

@@ -7,7 +7,7 @@ import { FaTelegram } from "react-icons/fa6";
 const BannerSection = () => {
   return (
     <div>
-      <div className="glow lg:translate-y-20 lg:translate-x-220  lg:p-0 lg:mt-0 mt-30 "></div>
+      <div className="glow lg:translate-y-20 lg:translate-x-220  lg:p-0 lg:mt-0 mt-30 lg:block hidden"></div>
       <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">
         <div className="lg:px-30 lg:py-20 px-8 pt-30">
           <h1 className=" justify-center    text-start heading lg:mb-0 mb-0 ">
@@ -17,7 +17,7 @@ const BannerSection = () => {
             <div className="flex p-0 m-0">
               {/* <BsCurrencyBitcoin  className='p-0 me-8'/> */}
               <span className="lg:text-9xl text-7xl font-bold flex ">
-               <BsCurrencyBitcoin  className='-translate-x-6 -translate-y-1 lg:relative absolute '/> <div className='lg:-translate-x-12 cssanimation leBlurIn sequence lg:ms-0 md:ms-0 ms-8'>ITCOIN</div>
+               <BsCurrencyBitcoin  className='-translate-x-6 -translate-y-1 lg:relative md:relative absolute ' style={{color: 'orange'}}/> <div className='lg:-translate-x-12 cssanimation leBlurIn sequence lg:ms-0 md:ms-0 ms-8 '>ITCOIN</div>
               </span>
             </div>
           </h1>
@@ -42,7 +42,7 @@ const BannerSection = () => {
             </div>
           </a>
         </div>
-        <div className=" lg:flex justify-end align-end hidden">
+        <div className=" lg:flex justify-end align-end md:hidden hidden">
           <div className="">
             <div
               data-aos="fade-up"
@@ -85,7 +85,7 @@ const BannerSection = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="2000"
-              className="a cursor-pointer  lg:block hidden  transition delay-150 duration-300 ease-in-out blur-box text-white  translate-y-72 translate-x-125 p-3 border rounded-xl w-41 bg-white/5  shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
+              className="a cursor-pointer  lg:block hidden  transition delay-150 duration-300 ease-in-out blur-box text-white  translate-y-72 translate-x-125 p-3 border rounded-xl w-41 lg:bg-white/5 md:bg-white/5 bg-white/30   shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
             >
               {/* <h6 className='heading text-start font-bold mb-2'> Community builder</h6> */}
               <p className="para  text-sm font text-start">
