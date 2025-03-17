@@ -1,12 +1,13 @@
 import Spline from "@splinetool/react-spline";
 import threeD from "../assets/vid/chips.mp4";
 import { BsCurrencyBitcoin } from "react-icons/bs";
+import { FaTelegram } from "react-icons/fa6";
 // import Button from "./Button";
 
 const BannerSection = () => {
   return (
     <div>
-      <div className="glow lg:translate-y-20 lg:translate-x-200  lg:p-0 lg:mt-0 mt-30"></div>
+      <div className="glow lg:translate-y-20 lg:translate-x-220  lg:p-0 lg:mt-0 mt-30 "></div>
       <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">
         <div className="lg:px-30 lg:py-20 px-8 pt-30">
           <h1 className=" justify-center    text-start heading lg:mb-0 mb-0 ">
@@ -15,8 +16,8 @@ const BannerSection = () => {
             </span>
             <div className="flex p-0 m-0">
               {/* <BsCurrencyBitcoin  className='p-0 me-8'/> */}
-              <span className="lg:text-9xl text-8xl font-bold flex ">
-               <BsCurrencyBitcoin  className='-translate-x-6 -translate-y-2'/> <div className='lg:-translate-x-12 -translate-x-12 cssanimation leBlurIn sequence '>ITCOIN</div>
+              <span className="lg:text-9xl text-7xl font-bold flex ">
+               <BsCurrencyBitcoin  className='-translate-x-6 -translate-y-2'/> <div className='lg:-translate-x-12 -translate-x-16 cssanimation leBlurIn sequence'>ITCOIN</div>
               </span>
             </div>
           </h1>
@@ -32,11 +33,11 @@ const BannerSection = () => {
             style={{ border: "1px solid #FFA500" }}
           >
             <div className="relative overflow-hidden">
-              <p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg">
-                Get in touch
+              <p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg flex items-center justify-between">
+                Get in touch <FaTelegram className="lg:text-lg text-sm ms-2" />
               </p>
-              <p className="absolute top-7 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg">
-                Get in touch
+              <p className="absolute top-7 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg flex items-center justify-between">
+                Get in touch <FaTelegram className="lg:text-lg text-sm ms-2" />
               </p>
             </div>
           </a>

@@ -266,8 +266,8 @@ animation-duration: 3s;
 
 .glow {
   position: absolute;
-  width: 450px;
-  height:450px;
+  width: 400px;
+  height:400px;
   border-radius: 100%;
   background-color: #FF8C00 ;
   /* background-image: url('./assets/img/oval-removebg-preview.png'); */
@@ -352,20 +352,20 @@ animation-duration: 3s;
   
 }
 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     .glow, .glow2 {
       width: 280px !important;
       height: 200px !important;
     }
   }
 
-  @media screen and (max-width: 480px) {
+  @media  (max-width: 480px) {
     .glow, .glow2 {
       width: 200px !important;
       height: 150px !important;
     }
   }
-  @media screen and (max-width: 320px) {
+  @media (max-width: 320px) {
     .glow, .glow2 {
       width: 150px !important;
       height: 100px !important;

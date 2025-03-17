@@ -42,7 +42,7 @@ const Hero = () => {
               className="heading tracking-wide"
               style={{ color: "#FF8C00" }}
             >
-              Adam
+              Adam Bitcoin
             </span>
             , a crypto investor and content creator spreading the word about
             Bitcoin and Web3 wherever I go. I'm currently traveling the world,
