@@ -23,7 +23,7 @@ const BannerSection = () => {
           </h1>
           <p className="text-start w-68 lg:text-md text-sm lg:w-auto mb-3">
             I teach marketing strategies , build thriving communities, create
-            content around all things crypto— helping and individual grow with
+            content around all things crypto— helping brands and individual grow with
             impact.
           </p>
           {/* <Button text='Learn More' link='' classNam='float-left' /> */}
