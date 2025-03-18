@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="nav flex justify-between items-center  align-center p-4 lg:px-8 pt-3 align-center">
         <a href="" className="flex ms-3 gap-2 align-center cursor-pointer " data-aos="fade-right" data-aos-duration="2000">
         <img src={Avatar} alt="" className="w-12 h-auto rounded-full " />
-          <div className="logo lg:text-3xl text-xl text-white heading lg:mt-1.5 mt-2.5">Adam</div>
+          {/* <div className="logo lg:text-3xl text-xl text-white heading lg:mt-1.5 mt-2.5">Adam</div> */}
   
        
         </a>
