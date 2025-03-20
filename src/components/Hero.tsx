@@ -65,23 +65,23 @@ const Hero = () => {
           >
             <Button
               classNam="gradient-btn"
-              text={<FaXTwitter className="text-lg" />}
+              text={<FaXTwitter className="text-lg" style={{color: ''}} />}
               link={"https://x.com/@AdamBitcoinP2P1"}
             />
             <Button
               classNam="gradient-btn"
-              text={<FaYoutube className="text-lg" />}
+              text={<FaYoutube className="text-lg" style={{color: ' '}} />}
               link={"https://youtube.com/@AdamBitcoinP2P1"}
             />
             <Button
               classNam="gradient-btn"
-              text={<FaTelegram className="text-lg" />}
+              text={<FaTelegram className="text-lg" style={{color: ''}} />}
               link={"https://t.me/AdamBitcoinChat"}
             />
 
             <Button
               classNam="gradient-btn"
-              text={<FaTiktok className="text-lg" />}
+              text={<FaTiktok className="text-lg" style={{color: ''}} />}
               link={"https://tiktok.com/@AdamBitcoinP2P1"}
             />
           </div>

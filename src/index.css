@@ -196,6 +196,23 @@ z-index: 9999;
   transform: scale(1.05);
   box-shadow: 0px 4px 15px rgba(246, 238, 230, 0.792);
 }
+.gradient-btn:nth-child(1) {
+  /* styles for first button */
+  background-color: #0a0a0a;
+  border: 2px solid white;
+}
+
+.gradient-btn:nth-child(2) {
+  /* styles for second button */
+  background-color: #CD201F ;
+  border: 2px solid #cccccc;
+}
+
+.gradient-btn:nth-child(3) {
+  /* styles for third button */
+  background-color: #0088cc;
+  border: 2px solid #999999;
+}
 
 
 
