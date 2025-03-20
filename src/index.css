@@ -172,23 +172,16 @@ z-index: 9999;
 
   .animated-bg {
     background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #000000, #23232351);
-    /* background: black;  */
-    
-    /* background: linear-gradient(-135deg, #FF8C00, #7D00FF); */
-    /* background-image: linear-gradient(to right top, #020202, #0A0A0A,  #0A0A0A, #ff8c00, #d64d47); */
     background-size: 300% 300%;
     animation: gradientAnimation 6s ease infinite;
     height: 100vh; 
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     color: white;
     text-align: center;
   }
 .gradient-btn {
-    /* background: linear-gradient(-135deg, #FF8C00, #7D00FF);
-     */
-  background-color: #ff8c00e8;
+ 
+  background-color: black;
+  border:1px solid white;
   color: white;
   padding: 16px 16px;
   font-size: 16px;
@@ -218,51 +211,7 @@ animation-duration: 3s;
     }
 } 
 
-.btc{
-  /* width: 320px;
-  height: 320px; */
-  cursor: pointer;
-  text-indent: 0px 0px 20px #FFCA2C,
-  0px 0px 20px #FFCA2C,
-  0px 0px 20px #FFCA2C,
-  0px 0px 20px #FFCA2C
-  ;
-  animation: float 3s ease-in-out infinite;
-}
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-20px); /* Adjust the float height */
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 
-.btc2{
-  /* width: 320px;
-  height: 320px; */
-  cursor: pointer;
-  text-indent: 0px 0px 20px #FFCA2C,
-  0px 0px 20px #FFCA2C,
-  0px 0px 20px #FFCA2C,
-  0px 0px 20px #FFCA2C
-  ;
-  animation: floatx 8s ease-in-out infinite;
-}
-@keyframes floatx {
-  0% {
-    transform: translateX(0px);
-  }
-  50% {
-    transform: translateX(-20px); /* Adjust the float height */
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
 
 .glow {
   position: absolute;
@@ -275,66 +224,15 @@ animation-duration: 3s;
   background-position: center; */
   filter: blur(80px);
   mix-blend-mode: screen;
-  /* Glowing effect */
+ 
   pointer-events: none;
-  /* Allow interaction with underlying elements */
-  /* transform: translate(0%, -10%); */
-  /* transform: translateX(750px)!important; */
+
   transition: all ease-in-out 0.3s;
   transition: width 0.2s ease, height 0.2s ease;
   z-index: 1;
   animation: color 6s ease infinite;
    animation: rotate 10s ease-in-out infinite; 
 }
-@keyframes color {
-  0% {
-    background-color: #FF8C00;
-  }
-  50% {
-    background-color: #7D00FF;
-  }
-  100% {
-    background-color: #FF8C00;
-  }
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-    background-color: #FF8C00;
-  }
-  50%{
-    transform: rotate(180deg);
-    background-color: #7D00FF;
-  }
-  100% {
-    transform: rotate(360deg);
-    background-color: #FF8C00;
-  }
-  
-}
-
-.glow2 {
-  position: absolute;
-  width: 450px;
-  height:400px;
-  border-radius: 100%;
-  background-color: #FF8C00 ;
-  /* background-image: url('./assets/img/oval-removebg-preview.png'); */
-  background-size: cover;
-  background-position: center;
-  filter: blur(50px);
-  mix-blend-mode: screen;
-  /* Glowing effect */
-  pointer-events: none;
-  /* Allow interaction with underlying elements */
-  /* transform: translate(-50%, -10%); */
-  transform: translateX(-800px);
-  transition: all ease-in-out 0.3s;
-  transition: width 0.2s ease, height 0.2s ease;
-  z-index: 1;
-  animation: colorr 6s ease infinite;
-   animation: rotatee 5s ease-in-out infinite; 
-}
 
 @keyframes rotate {
   0% {
@@ -351,6 +249,9 @@ animation-duration: 3s;
   }
   
 }
+
+
+
 
   @media (max-width: 768px) {
     .glow, .glow2 {
