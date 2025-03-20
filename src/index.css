@@ -180,13 +180,12 @@ z-index: 9999;
   }
 .gradient-btn {
  
-  background-color: black;
-  border:1px solid white;
+  background-color: #0a0a0a;
+  border:2px solid white;
   color: white;
   padding: 16px 16px;
   font-size: 16px;
   font-weight: bold;
-  border: none;
   border-radius: 40px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -195,7 +194,7 @@ z-index: 9999;
 
 .gradient-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0px 4px 15px rgba(255, 140, 0, 0.792);
+  box-shadow: 0px 4px 15px rgba(246, 238, 230, 0.792);
 }
 
 
@@ -253,22 +252,22 @@ animation-duration: 3s;
 
 
 
-  @media (max-width: 768px) {
-    .glow, .glow2 {
-      width: 200px !important;
-      height: 100px !important;
-    }
+@media (max-width: 768px) {
+  .glow{
+    width: 200px !important;
+    height: 100px !important;
   }
+}
 
-  @media  (max-width: 480px) {
-    .glow, .glow2 {
-      width: 150px !important;
-      height: 100px !important;
-    }
+@media  (max-width: 480px) {
+  .glow{
+    width: 150px !important;
+    height: 100px !important;
   }
-  @media (max-width: 320px) {
-    .glow, .glow2 {
-      width: 100px !important;
-      height: 500px !important;
-    }
+}
+@media (max-width: 320px) {
+  .glow{
+    width: 100px !important;
+    height: 500px !important;
   }
+}
