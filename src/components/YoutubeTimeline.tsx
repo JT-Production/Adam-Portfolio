@@ -1,6 +1,6 @@
 const YoutubeTimeline = () => {
   return (
-    <div className=" mt-12 lg:mt-10 px-30" id="channel">
+    <div className=" mt-12 lg:mt-10 lg:px-30 md:px-20" id="channel">
       {/* <iframe
         src="https://widget.tagembed.com/2156596"
         style={{
