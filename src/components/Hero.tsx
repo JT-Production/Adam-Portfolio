@@ -5,7 +5,7 @@ import { FaXTwitter, FaTiktok, FaYoutube, FaTelegram } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div
-      className="p-12 h-screen flex justify-center items-center my-10 lg:mt-19 z-20"
+      className="p-12 h-screen  my-10 lg:mt-19 z-20"
       id="about"
     >
       <div className="grid lg:grid-cols-2 gap-10">
@@ -87,6 +87,25 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+    
+  <center className="flex justify-center items-center mt-15">
+  <a
+            href="https://t.me/AdamBitcoinP2P1"
+            className="cursor-pointer float-left bg-gradient-to-b mt-3 from--500 to--600  lg:px-10 lg:py-2 px-8 py-2 rounded-full border-[1px] border-orange-500 text-white font-medium group"
+            style={{ border: "1px solid #FFA500"  }}
+          >
+            <div className="relative overflow-hidden">
+              <p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg flex items-center justify-between">
+                Contact Me
+              </p>
+              <p className="absolute top-7 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg flex items-center justify-between">
+                Contact Me
+              </p>
+            </div>
+          </a>
+  </center>
+
     </div>
   );
 };
