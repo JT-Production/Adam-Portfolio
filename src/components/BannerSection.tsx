@@ -6,7 +6,6 @@ import { FaTelegram } from "react-icons/fa6";
 const BannerSection = () => {
   return (
     <div>
-      <div className="glow lg:translate-y-20 lg:translate-x-220  lg:p-0 lg:mt-0 mt-30 lg:block hidden"></div>
       <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">
         <div className="lg:px-30 lg:py-20 px-8 pt-30">
           <h1 className=" justify-center    text-start heading lg:mb-0 mb-0 ">
