@@ -53,7 +53,7 @@ const BannerSection = () => {
               className=" cursor-pointer hover:translate-x-20 transition delay-150 duration-300 ease-in-out blur-box text-white lg:translate-y-15 translate-x-33 p-3 border rounded-xl w-50 bg-white/5  shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
             >
               <p className="para  text-sm text-start">
-              I Teach Marketing
+              Community building
               </p>
 
               <p></p>
@@ -64,7 +64,7 @@ const BannerSection = () => {
               className="a cursor-pointer hover:translate-x-6 transition delay-150 duration-300 ease-in-out blur-box text-white  translate-y-38 translate-x-15 p-3 border rounded-xl w-56 bg-white/5  shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
             >
               <p className="para  text-sm text-start">
-                Web3 Content Creation
+                Content Creation
               </p>
 
               <p></p>
@@ -76,8 +76,7 @@ const BannerSection = () => {
               className="a cursor-pointer hover:translate-x-20 transition delay-150 duration-300 ease-in-out blur-box text-white  translate-y-66 translate-x-25 p-3 border rounded-xl w-60 bg-white/5  shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
             >
               <p className="para  text-sm text-start">
-              I Build Communities
-
+              Marketing
               </p>
 
               <p></p>
