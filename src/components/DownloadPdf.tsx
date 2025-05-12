@@ -11,7 +11,7 @@ interface DownloadPdfButtonProps {
 const DownloadPdfButton: React.FC<DownloadPdfButtonProps> = ({
   fileUrl,
   fileName = 'Web3_Growth.pdf',
-  label,
+  
 }) => {
   const handleDownload = () => {
     const link = document.createElement('a');
