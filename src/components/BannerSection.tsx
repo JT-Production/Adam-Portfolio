@@ -21,7 +21,7 @@ const BannerSection = () => {
         <div className="flex gap-3 justify-center items-center">
           {/* <Button link="" text=" Join My Free Twitter Space" target="_blank" classNam="" />  */}
           <Button link="" text="Learn Bitcoin" target="_blank" classNam="flex items-center gap-2 font-body"  icon={<FaTelegram className="text-[16px]" />} />
-          <DownloadPdfButton fileUrl="public\pdf\Web3__Growth.pdf"/>
+          <DownloadPdfButton fileUrl="\pdf\Web3__Growth.pdf"/>
         </div>
        </div>
 
