@@ -2,13 +2,15 @@
 
 
 @font-face {
-    font-family:"taknaf";
-    src: url('./assets/fonts/TeknafRegular-rv0aB.otf');
+    font-family:"Aeonik";
+    src: url('./assets/fonts/Aeonik_Fono/AeonikFono-Regular.otf') format('opentype');
 }
 html{
   scroll-behavior: smooth!important;  
 } 
-
+.font-body{
+  font-family: 'Aeonik', sans-serif !important;
+}
 :root::-webkit-scrollbar {
   border: none;
   width: 7px;
@@ -34,15 +36,22 @@ html{
 }          
 body{
     overflow-x: hidden;     
-    background-color: #0A0A0A;
+    /* background-color: #0A0A0A; */
+    background: black;
+    color: white;
+    
    
 }
 .heading{
-    font-family: 'taknaf', sans-serif ;   
+    font-family: 'Helvetica Neue', sans-serif ;   
     
 }
 p,.para{
-    font-family: 'Syne', sans-serif;  
+    font-family: 'Aeonik', sans-serif !important;  
+}
+color{
+    color: #050505;
+    background: rgba(255, 255, 255, 0.169);
 }
 /* From Uiverse.io by Smit-Prajapati */ 
 .loader {
@@ -71,7 +80,10 @@ p,.para{
   align-items: center;
   transition: 4s;
 }
-
+.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(5px) }
+}
 .loader{
   
  
@@ -169,15 +181,6 @@ z-index: 9999;
     100% { background-position: 0% 50%; }
   }
   
-
-  .animated-bg {
-    background: linear-gradient(-45deg, #585756, #0A0A0A, #0A0A0A, #000000, #23232351);
-    background-size: 300% 300%;
-    animation: gradientAnimation 6s ease infinite;
-    height: 100vh; 
-    color: white;
-    text-align: center;
-  }
 .gradient-btn {
  
   background-color: #0a0a0a;

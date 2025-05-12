@@ -1,112 +1,85 @@
-import Spline from "@splinetool/react-spline";
-import threeD from "../assets/vid/chips.mp4";
-import { BsCurrencyBitcoin } from "react-icons/bs";
+import { MdOutlineCurrencyBitcoin } from "react-icons/md";
+import Button from "./Button";
 import { FaTelegram } from "react-icons/fa6";
+import DownloadPdfButton from "./DownloadPdf";
+
+
 
 const BannerSection = () => {
   return (
     <div>
-      <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">
-        <div className="lg:px-30 lg:py-20 px-8 pt-30">
-          <h1 className=" justify-center    text-start heading lg:mb-0 mb-0 ">
-            <span className="cssanimation leBlurIn sequence lg:text-6xl text-4xl">
-              ADAM
-            </span>
-            <div className="flex p-0 m-0">
-              <span className="lg:text-9xl text-7xl font-bold flex ">
-                <BsCurrencyBitcoin
-                  className="-translate-x-6 -translate-y-1 lg:relative md:relative absolute "
-                  style={{ color: "orange" }}
-                />{" "}
-                <div className="lg:-translate-x-12 cssanimation leBlurIn sequence lg:ms-0 md:ms-0 ms-9 ">
-                  ITCOIN
-                </div>
-              </span>
-            </div>
-          </h1>
-          <p className="text-start w-68 lg:text-md text-sm lg:w-auto mb-3">
-            I teach marketing strategies , build thriving communities, create
-            content around all things crypto— helping brands and individuals grow
-            with impact.
-          </p>
-
-          <a
-            href="https://t.me/AdamBitcoinP2P1"
-            className="cursor-pointer float-left bg-gradient-to-b mt-3 from--500 to--600  lg:px-8 lg:py-2 px-5 py-2 rounded-full border-[1px] border-orange-500 text-white font-medium group"
-            style={{ border: "1px solid #FFA500" }}
-          >
-            <div className="relative overflow-hidden">
-              <p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg flex items-center justify-between">
-                Get in touch <FaTelegram className="lg:text-lg text-sm ms-2" />
-              </p>
-              <p className="absolute top-7 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg flex items-center justify-between">
-                Get in touch <FaTelegram className="lg:text-lg text-sm ms-2" />
-              </p>
-            </div>
-          </a>
+      <div className="container flex items-center justify-center h-[460px] z-10 inset-0 mx-auto relative text-center">
+       <div className="">
+         <div className="">
+          <h1 className="lg:text-7xl text-5xl uppercase lg:font-normal text-center heading flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-orange-100 via-orange-500 to-orange-900">Adam <span className="flex items-center "><MdOutlineCurrencyBitcoin className="text-orange-500 lg:translate-x-3" />itcoin</span></h1>
+         </div>
+        <p className="lg:text-md text-sm text-center mt-4 lg:w-2/3 mx-auto text-white/60 mb-3 font-body px-1">
+          I help people understand Bitcoin, build communities, and grow their
+          brand with powerful marketing strategies—so you can thrive in the new
+          digital economy.
+        </p>
+        <div className="flex gap-3 justify-center items-center">
+          {/* <Button link="" text=" Join My Free Twitter Space" target="_blank" classNam="" />  */}
+          <Button link="" text="Learn Bitcoin" target="_blank" classNam="flex items-center gap-2 font-body"  icon={<FaTelegram className="text-[16px]" />} />
+          <DownloadPdfButton fileUrl="public\pdf\Web3__Growth.pdf"/>
         </div>
-        <div className=" lg:flex justify-end align-end md:hidden hidden">
-          <div className="">
-            <div
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              className=" cursor-pointer hover:translate-x-20 transition delay-150 duration-300 ease-in-out blur-box text-white lg:translate-y-15 translate-x-33 p-3 border rounded-xl w-50 bg-white/5  shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
-            >
-              <p className="para  text-sm text-start">
-              Community building
-              </p>
+       </div>
 
-              <p></p>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              className="a cursor-pointer hover:translate-x-6 transition delay-150 duration-300 ease-in-out blur-box text-white  translate-y-38 translate-x-15 p-3 border rounded-xl w-56 bg-white/5  shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
-            >
-              <p className="para  text-sm text-start">
-                Content Creation
-              </p>
-
-              <p></p>
-            </div>
-
-            <div
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              className="a cursor-pointer hover:translate-x-20 transition delay-150 duration-300 ease-in-out blur-box text-white  translate-y-66 translate-x-25 p-3 border rounded-xl w-60 bg-white/5  shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
-            >
-              <p className="para  text-sm text-start">
-              Marketing
-              </p>
-
-              <p></p>
-            </div>
-
-            <div
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              className="a cursor-pointer  lg:block hidden  transition delay-150 duration-300 ease-in-out blur-box text-white  translate-y-72 translate-x-125 p-3 border rounded-xl w-41 lg:bg-white/5 md:bg-white/5 bg-white/30   shadow-lg shadow-gray-400/20 border-zinc-800 backdrop-filter backdrop-blur-xl bg-opacity-50 "
-            >
-              <p className="para  text-sm font text-start">
-                Ex-Bitcoin Maximalist
-              </p>
-
-              <p></p>
-            </div>
-          </div>
-          <Spline
-            scene="https://prod.spline.design/iX9i2b5SK-JxmPus/scene.splinecode"
-            className="three-d lg:w-[1000px]  lg:h-[500px] lg:block hidden"
-          />
-          <video
-            src={threeD}
-            autoPlay
-            loop
-            muted
-            className=" object-cover lg:hidden block h-100"
-          ></video>
-        </div>
       </div>
+      
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `
+          linear-gradient(to right, #050505 1px, transparent 1px),
+          linear-gradient(to bottom, #050505 1px, transparent 1px)
+        `,
+          backgroundSize: "100px 80px",
+          backgroundPosition: "center ",
+        }}
+      ></div>
+      {/* shapeless glow div */}
+      {/* <div
+        className="absolute inset-0 z-1"
+        style={{
+          backgroundImage: `radial-gradient(circle, rgba(255, 255, 255, 0.169) 0%, rgba(0, 0, 0, 0.1) 60%)`,
+          filter: "blur(100px)",
+          width: "50%",
+          height: "70%",
+          backgroundPosition: "center",
+          left: "50%",
+          transform: "translateX(-50%)"
+        }}></div>
+        {/* shapeless orange glow gradient left div */}
+      {/* <div
+        className="absolute inset-0 z-1"
+        style={{
+          backgroundImage: `radial-gradient(circle, rgb(234 88 12 / 0.4) 0%, rgb(251 146 60 / 0.2) 100%)`,
+          filter: "blur(100px)",
+          width: "50%",
+          height: "50%",
+          backgroundPosition: "center",
+          top: "50%",
+          right: "0%",
+          transform: "translateX(160%)"
+        }}></div> */} 
+        <div className="fixed inset-0 z-0">
+        {/* Top left orange glow */}
+        <div className="absolute top-0 left-0 w-[50%] h-[50%] bg-gradient-to-br from-orange-500/50 via-orange-500/20 to-transparent rounded-full blur-[120px] transform -translate-x-1/2 -translate-y-1/2"></div>
+
+        {/* Bottom right orange glow */}
+        <div className="absolute bottom-0 right-0 w-[60%] h-[60%] bg-gradient-to-tl from-orange-500/30 via-orange-500/30 to-transparent rounded-full blur-[150px] transform translate-x-1/3 translate-y-1/3"></div>
+
+        {/* Subtle center glow */}
+        <div className="absolute top-1/2 left-1/2 w-[60%] h-[40%] bg-gradient-to-r from-orange-700/10 via-orange-500/0 to-orange-700/5 rounded-full blur-[180px] transform -translate-x-1/2 -translate-y-1/2"></div>
+      </div>
+
+     
+      
+
+     
+
+      
     </div>
   );
 };

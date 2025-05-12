@@ -1,30 +1,19 @@
-import Button from "./Button";
-import Avatar from "../assets/img/logo.jpg";
-import { FaXTwitter, FaTiktok, FaYoutube, FaTelegram } from "react-icons/fa6";
+import { FiYoutube } from "react-icons/fi";
+import Avatar from "../assets/img/adam-img.jpg";
+import { RiTwitterXFill } from "react-icons/ri";
+import { FaTelegram } from "react-icons/fa6";
+import { IoLogoTiktok } from "react-icons/io5";
+
 
 const Hero = () => {
   return (
     <div
-      className="p-12 h-screen  my-10 lg:mt-19 z-20"
+      className="p-12 h-screen lg:px-40 my-10 lg:mt-19 z-20 px-5"
       id="about"
     >
-      <div className="grid lg:grid-cols-2 gap-10">
-        <div
-          className="bg-zinc-800 lg:w-8/12 w-8/12 md:w-6/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end z-30"
-          style={{ background: "#27272a" }}
-          data-aos="fade-right"
-          data-aos-duration="3000"
-        >
-          <center>
-            {" "}
-            <img
-              src={Avatar}
-              alt=""
-              className="w-96 h-auto -rotate-4 rounded-2xl "
-            />
-          </center>
-        </div>
-        <div className="">
+      <div className="grid lg:grid-cols-3 gap- ">
+       
+        <div className="  rounded-4xl col-span-2">
           <h1
             className="heading text-white lg:text-3xl text-2xl py-4 "
             data-aos="fade-up"
@@ -33,32 +22,51 @@ const Hero = () => {
             About Me
           </h1>
           <p
-            className="text-white lg:text-[16px]  text-sm"
+            className="text-white lg:text-[16px] font-body text-sm"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
             Hi! I’m{" "}
             <span
-              className="heading tracking-wide"
+              className="font-bold tracking-wide"
               style={{ color: "#FF8C00" }}
             >
               Adam Bitcoin
             </span>
-            , a crypto investor and content creator spreading the word about
-            Bitcoin and Web3 wherever I go. I'm currently traveling the world,
-            documenting my travels of the good and bad sides of the places I
-            visit—like Colombia—and the power of cryptocurrency to connect and
-            create freedom for people. <br /> <br />
-            Whether I'm shilling Bitcoin or going to some of the most dangerous
-            places on earth with a friendly vibe, I'm all about building
-            community and sharing knowledge. Join me on the adventures as I chat
-            crypto, and collaborate with others in the space. Check out my
-            latest videos, hop into the Adam Bitcoin Chat on Telegram, or follow
-            along for a mix of travel and crypto content. Together, we're making
-            Web3 a little more accessible—one conversation at a time.
-            Enjoy the ride!💜
+            ,  a Bitcoin investor since 2014 and content creator dedicated to helping people 
+            understand the life-changing potential of Bitcoin. <br /> <br />
+            Right now, I’m inviting you to take the next step toward financial freedom by joining
+             my Bitcoin Education Class—designed for beginners and curious learners who want 
+             real guidance -not hype.
           </p>
-          <div
+          <br />
+          <p className="font-body text-[16px] text-white text-sm" >
+            In just a few sessions, you’ll gain the knowledge and confidence to: <br />
+
+            <ul className="mt-2 marker:text-orange-400 ">
+              <li className="list-disc list-inside mb-2">
+            Navigate Bitcoin safely
+              </li>
+              <li className="list-disc list-inside mb-2">
+      Store and protect your wealth
+              </li>
+              <li className="list-disc list-inside mb-2">
+                Understand the future of money
+              </li>
+              <li className="list-disc list-inside mb-2">
+    Join a thriving global community
+              </li>
+            </ul>
+{/* ✔️ Navigate Bitcoin safely <br />
+
+✔️ Store and protect your wealth <br />
+✔️ Understand the future of money <br />
+✔️ Join a thriving global community <br /> */}
+<br /> 
+<p className="font-bold ">Bitcoin is no longer the future—it's the now.
+Let me show you how to use it wisely</p>
+          </p>
+          {/* <div
             className="flex gap-4"
             data-aos="fade-right"
             data-aos-duration="1000"
@@ -84,28 +92,43 @@ const Hero = () => {
               text={<FaTiktok className="text-lg" style={{color: ''}} />}
               link={"https://tiktok.com/@AdamBitcoinP2P1"}
             />
-          </div>
+          </div> */}
         </div>
+
+         {/* <div
+          className=" h-auto lg:w-full w-8/12 bg-orange-300/30 md:w-6/12 p-1 mx-auto rounded-2xl origin-bottom rotate-4 flex justify-end items-end z-30"
+          style={{ background: "" }}
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        > */}
+          <center className="flex justify-center items-center">
+            {" "}
+            <img
+              src={Avatar}
+              alt=""
+              className="lg:w-96 lg:h-auto md:w-96  rounded-4xl w-[6000px] lg:my-0 my-5"
+            />
+          </center>
+        {/* </div> */}
       </div>
 
-    
-  <center className="flex justify-center items-center mt-15">
-  <a
-            href="https://t.me/AdamBitcoinP2P1"
-            className="cursor-pointer float-left bg-gradient-to-b mt-3 from--500 to--600  lg:px-10 lg:py-2 px-8 py-2 rounded-full border-[1px] border-orange-500 text-white font-medium group"
-            style={{ border: "1px solid #FFA500"  }}
-          >
-            <div className="relative overflow-hidden">
-              <p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg flex items-center justify-between">
-                Contact Me
-              </p>
-              <p className="absolute top-7 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] text-sm lg:text-lg flex items-center justify-between">
-                Contact Me
-              </p>
-            </div>
-          </a>
-  </center>
 
+           <div className="flex justify-center font-body items-center lg:gap-8 gap-4 pt-10 relative inset-0 ">
+            <a href="https://x.com/@AdamBitcoinP2P1" className="text-white lg:text-lg text-sm flex gap-2 items-center  relative inset-0 " style={{ color: "#FF8C00" }}>
+            <RiTwitterXFill /> Twitter
+            </a>
+            <a href="https://youtube.com/@AdamBitcoinP2P1" className="text-white lg:text-lg text-sm flex gap-2 items-center  relative inset-0 " style={{ color: "#FF8C00" }}>
+             <FiYoutube /> Youtube
+            </a>
+            <a href="https://t.me/AdamBitcoinChat" className="text-white lg:text-lg text-sm flex gap-2 items-center  relative inset-0 " style={{ color: "#FF8C00" }}>
+             <FaTelegram /> Telegram
+            </a>
+            
+            <a href="https://tiktok.com/@AdamBitcoinP2P1" className="text-white lg:text-lg text-sm flex gap-2 items-center  relative inset-0 " style={{ color: "#FF8C00" }}>
+             <IoLogoTiktok /> Tiktok
+            </a>
+          </div>
+          
     </div>
   );
 };

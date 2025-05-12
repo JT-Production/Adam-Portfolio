@@ -3,12 +3,14 @@ import Hero from "./components/Hero";
 import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
 import ScrollDown from "./components/ScrollDown";
-import YoutubeTimeline from "./components/YoutubeTimeline";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Offers from "./components/Offers";
+import CTA from "./components/CTA";
+
 
  
 
@@ -22,14 +24,17 @@ const App = () => {
   return (
     <>
 
-      <div className="animated-bg lg:h-svh h-fit">
+     
+      <div className="h-100vh">
         <Loader/>
-        <Navbar />
-        <BannerSection />
-        <ScrollDown />
+      <Navbar />
+      <BannerSection />
+      <ScrollDown />
+      
       </div>
       <Hero />
-      <YoutubeTimeline />
+      <Offers/>
+      <CTA/>
       <Footer />
       <Analytics />
     </>
