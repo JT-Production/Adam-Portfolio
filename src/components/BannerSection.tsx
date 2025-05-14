@@ -11,7 +11,21 @@ const BannerSection = () => {
       <div className="container flex items-center justify-center h-[460px] z-10 inset-0 mx-auto relative text-center">
        <div className="">
          <div className="">
-          <h1 className="lg:text-7xl text-5xl uppercase lg:font-normal text-center heading flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-orange-100 via-orange-500 to-orange-900">Adam <span className="flex items-center "><MdOutlineCurrencyBitcoin className="text-orange-500 lg:translate-x-3" />itcoin</span></h1>
+            <h1 style={{
+            // fontSize: ['text-5xl', 'text-7xl'],
+            textTransform: 'uppercase',
+            fontWeight: 'normal',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            color: 'transparent',
+            backgroundClip: 'text',
+            backgroundImage: 'linear-gradient(to right, #fff7ed, #f97316, #7c2d12)'
+            }} className="text-5xl lg:text-7xl font-bold items-center">
+            Adam <span style={{ display: 'flex'}} className="items-center">
+              <MdOutlineCurrencyBitcoin style={{ color: '#f97316',  }} className="translate-x-2 lg:translate-x-3" />itcoin
+            </span>
+            </h1>
          </div>
         <p className="lg:text-md text-sm text-center mt-4 lg:w-2/3 mx-auto text-white/60 mb-3 font-body px-1">
           I help people understand Bitcoin, build communities, and grow their
@@ -21,7 +35,7 @@ const BannerSection = () => {
         <div className="flex gap-3 justify-center items-center">
           {/* <Button link="" text=" Join My Free Twitter Space" target="_blank" classNam="" />  */}
           <Button link="" text="Learn Bitcoin" target="_blank" classNam="flex n items-center gap-2 font-body"  icon={<FaTelegram className="text-[16px]" />} />
-          <DownloadPdfButton fileUrl="pdf\Web3__Growth.pdf"/>
+          <DownloadPdfButton fileUrl="pdf\Web3__Growth.pdf" />
         </div>
        </div>
 
@@ -63,16 +77,50 @@ const BannerSection = () => {
           right: "0%",
           transform: "translateX(160%)"
         }}></div> */} 
-        <div className="fixed inset-0 z-0">
+        <div style={{ 
+          position: 'fixed',
+          inset: 0,
+          zIndex: 0
+        }}>
         {/* Top left orange glow */}
-        <div className="absolute top-0 left-0 w-[50%] h-[50%] bg-gradient-to-br from-orange-500/50 via-orange-500/20 to-transparent rounded-full blur-[120px] transform -translate-x-1/2 -translate-y-1/2"></div>
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '50%',
+          height: '50%',
+          background: 'linear-gradient(to bottom right, rgba(249, 115, 22, 0.5), rgba(249, 115, 22, 0.2), transparent)',
+          borderRadius: '50%',
+          filter: 'blur(120px)',
+          transform: 'translate(-50%, -50%)'
+        }}></div>
 
         {/* Bottom right orange glow */}
-        <div className="absolute bottom-0 right-0 w-[60%] h-[60%] bg-gradient-to-tl from-orange-500/30 via-orange-500/30 to-transparent rounded-full blur-[150px] transform translate-x-1/3 translate-y-1/3"></div>
+        <div style={{
+          position: 'absolute',
+          bottom: 0,
+          right: 0,
+          width: '60%',
+          height: '60%',
+          background: 'linear-gradient(to top left, rgba(249, 115, 22, 0.3), rgba(249, 115, 22, 0.3), transparent)',
+          borderRadius: '50%',
+          filter: 'blur(150px)',
+          transform: 'translate(33%, 33%)'
+        }}></div>
 
         {/* Subtle center glow */}
-        <div className="absolute top-1/2 left-1/2 w-[60%] h-[40%] bg-gradient-to-r from-orange-700/10 via-orange-500/0 to-orange-700/5 rounded-full blur-[180px] transform -translate-x-1/2 -translate-y-1/2"></div>
-      </div>
+        <div style={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          width: '60%',
+          height: '40%',
+          background: 'linear-gradient(to right, rgba(194, 65, 12, 0.1), rgba(249, 115, 22, 0), rgba(194, 65, 12, 0.05))',
+          borderRadius: '50%',
+          filter: 'blur(180px)',
+          transform: 'translate(-50%, -50%)'
+        }}></div>
+            </div>
 
      
       

@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import { IoIosMenu } from "react-icons/io";
 import { LiaTimesSolid } from "react-icons/lia";
 import { useEffect, useState } from "react";
-import Avatar from "../assets/img/logo.jpg";
+import Avatar from "../assets/img/adam-img.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BiMessageRoundedDetail } from "react-icons/bi";
@@ -26,7 +26,7 @@ const Navbar = () => {
           data-aos="fade-right"
           data-aos-duration="2000"
         >
-          <img src={Avatar} alt="" className="w-12 h-auto rounded-full " />
+          <img src={Avatar} alt="" className="w-12 h-12 rounded-full " />
         </a>
         <div
           data-aos="fade-down"
@@ -53,10 +53,10 @@ const Navbar = () => {
             Services
           </Link>
           <Link
-            to="contact"
+            to=""
             smooth={true}
             duration={500}
-            href=""
+            href="https://t.me/AdamBitcoinChat"
             className={`${display} lg:block bg-orange-400 py-2.5 px-4 rounded-3xl `}
           >
             <span className="flex items-center gap-2">Chat Now <BiMessageRoundedDetail className="text-lg" /></span>

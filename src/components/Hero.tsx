@@ -113,7 +113,7 @@ Let me show you how to use it wisely</p>
       </div>
 
 
-           <div className="flex justify-center font-body items-center lg:gap-8 gap-4 pt-10 relative inset-0 ">
+           <div className="flex justify-center font-body items-center lg:gap-8 gap-4 pt-10 relative inset-0 z-0">
             <a href="https://x.com/@AdamBitcoinP2P1" className="text-white lg:text-lg text-sm flex gap-2 items-center  relative inset-0 " style={{ color: "#FF8C00" }}>
             <RiTwitterXFill /> Twitter
             </a>
