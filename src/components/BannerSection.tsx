@@ -20,7 +20,7 @@ const BannerSection = () => {
         </p>
         <div className="flex gap-3 justify-center items-center">
           {/* <Button link="" text=" Join My Free Twitter Space" target="_blank" classNam="" />  */}
-          <Button link="" text="Learn Bitcoin" target="_blank" classNam="flex items-center gap-2 font-body"  icon={<FaTelegram className="text-[16px]" />} />
+          <Button link="" text="Learn Bitcoin" target="_blank" classNam="flex n items-center gap-2 font-body"  icon={<FaTelegram className="text-[16px]" />} />
           <DownloadPdfButton fileUrl="pdf\Web3__Growth.pdf"/>
         </div>
        </div>
