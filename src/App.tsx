@@ -12,7 +12,7 @@ import Offers from "./components/Offers";
 import CTA from "./components/CTA";
 
 
- 
+
 
 const App = () => {
 

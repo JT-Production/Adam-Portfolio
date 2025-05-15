@@ -8,23 +8,23 @@ import { IoLogoTiktok } from "react-icons/io5";
 const Hero = () => {
   return (
     <div
-      className="p-12 h-screen lg:px-40 my-10 lg:mt-19 z-20 px-5"
+      className="p-12  lg:px-40 my-10 lg:mt-19 z-20 px-5 h-auto"
       id="about"
     >
       <div className="grid lg:grid-cols-3 gap- ">
        
-        <div className="  rounded-4xl col-span-2">
+        <div className="  rounded-4xl col-span-2 " data-aos="fade-up" data-aos-duration="1000"> 
           <h1
             className="heading text-white lg:text-3xl text-2xl py-4 "
-            data-aos="fade-up"
-            data-aos-duration="1000"
+            
+           
           >
             About Me
           </h1>
           <p
             className="text-white lg:text-[16px] font-body text-sm"
-            data-aos="fade-up"
-            data-aos-duration="1500"
+        
+          
           >
             Hi! I’m{" "}
             <span
@@ -106,14 +106,14 @@ Let me show you how to use it wisely</p>
             <img
               src={Avatar}
               alt=""
+              data-aos="fade-left" data-aos-duration="2000"
               className="lg:w-96 lg:h-auto md:w-96  rounded-4xl w-[6000px] lg:my-0 my-5"
             />
           </center>
         {/* </div> */}
       </div>
 
-
-           <div className="flex justify-center font-body items-center lg:gap-8 gap-4 pt-10 relative inset-0 z-0">
+          <div className="flex justify-center font-body items-center lg:gap-8 gap-4 pt-15 relative inset-0 z-10">
             <a href="https://x.com/@AdamBitcoinP2P1" className="text-white lg:text-lg text-sm flex gap-2 items-center  relative inset-0 " style={{ color: "#FF8C00" }}>
             <RiTwitterXFill /> Twitter
             </a>
@@ -128,6 +128,9 @@ Let me show you how to use it wisely</p>
              <IoLogoTiktok /> Tiktok
             </a>
           </div>
+
+
+       
           
     </div>
   );
