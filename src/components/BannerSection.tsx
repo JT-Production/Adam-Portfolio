@@ -21,21 +21,24 @@ const BannerSection = () => {
             color: 'transparent',
             backgroundClip: 'text',
             backgroundImage: 'linear-gradient(to right, #fff7ed, #f97316, #7c2d12)'
-            }} className="text-5xl lg:text-7xl font-bold items-center">
+            }} className="text-5xl lg:text-7xl font-bold items-center" data-aos="fade-down"
+          data-aos-duration="1000">
             Adam <span style={{ display: 'flex'}} className="items-center">
               <MdOutlineCurrencyBitcoin style={{ color: '#f97316',  }} className="translate-x-2 lg:translate-x-3" />itcoin
             </span>
             </h1>
          </div>
-        <p className="lg:text-md text-sm text-center mt-4 lg:w-2/3 mx-auto text-white/60 mb-3 font-body px-1">
+        <p data-aos="fade-up"
+          data-aos-duration="1000" className="lg:text-md text-sm text-center mt-4 lg:w-2/3 mx-auto text-white/60 mb-3 font-body px-1">
           I help people understand Bitcoin, build communities, and grow their
           brand with powerful marketing strategies—so you can thrive in the new
           digital economy.
         </p>
-        <div className="flex gap-3 justify-center items-center">
+        <div className="flex gap-3 justify-center items-center" data-aos="fade-up"
+          data-aos-duration="2000">
           {/* <Button link="" text=" Join My Free Twitter Space" target="_blank" classNam="" />  */}
-          <Button link="" text="Learn Bitcoin" target="_blank" classNam="flex n items-center gap-2 font-body"  icon={<FaTelegram className="text-[16px]" />} />
-          <DownloadPdfButton fileUrl="pdf\Web3__Growth.pdf" />
+          <Button link="https://t.me/adambitcoinchat" text="Learn Bitcoin" target="_blank" classNam="flex n items-center gap-2 font-body"  icon={<FaTelegram className="text-[16px]" />} />
+          <DownloadPdfButton fileUrl="pdf\BitcoinBlueprintFree.pdf"/>
         </div>
        </div>
 

@@ -1,6 +1,5 @@
-import { FaTelegram } from "react-icons/fa6";
+import { FaInstagram, FaTelegram } from "react-icons/fa6";
 import { FiYoutube } from "react-icons/fi";
-import { IoLogoTiktok } from "react-icons/io5";
 import { RiTwitterXFill } from "react-icons/ri";
 
 
@@ -21,7 +20,7 @@ const Footer = () => {
           <a href="https://x.com/@AdamBitcoinP2P1"><RiTwitterXFill /></a>
           <a href="https://youtube.com/@AdamBitcoinP2P1"> <FiYoutube /></a>
           <a href="https://t.me/AdamBitcoinChat"><FaTelegram /></a>
-          <a href="https://tiktok.com/@AdamBitcoinP2P1"><IoLogoTiktok /></a>
+          <a href="https://www.instagram.com/adambitcoinp2p1?igsh=aDV5bThlejVyeDN0"><FaInstagram /></a>
         </div>
        </div>
          

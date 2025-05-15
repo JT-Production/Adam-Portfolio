@@ -1,5 +1,6 @@
 import { FaTelegram } from "react-icons/fa6"
 import Button from "./Button"
+import { MdOutlineClass } from "react-icons/md"
 
 const CTA = () => {
   return (
@@ -9,12 +10,20 @@ const CTA = () => {
             Let's make Bitcoin make sense—together.
         </h1>
         <p className="text-center lg:w-6/12 mx-auto text-[16px]">Join the Adam Bitcoin Chat on Telegram, follow my content, or jump right into the class—and start building real financial skills with Bitcoin.</p>
-        <Button
+        <div className="grid grid-cols-2 gap-2">
+          <Button
             link="https://t.me/adambitcoinchat"
             icon={<FaTelegram className="text-lg" />}
-            text="Join"
+            text="Join tg Group"
             target="_blank"
-            classNam="flex items-center gap-2 font-body px-10 cursor-pointer mx-auto"/>
+            classNam="flex items-center gap-2 font-body lg:px-10 cursor-pointer ms-auto"/>
+            <Button
+            link="https://buy.stripe.com/7sYaEY4tc8iI3oI3Osebu02"
+            icon={<MdOutlineClass className="text-lg" />}
+            text="Join class"
+            target="_blank"
+            classNam="flex item-center gap-2 font-body lg:px-10 cursor-pointer me-auto"/>
+        </div>
        </div>
     </div>
   )

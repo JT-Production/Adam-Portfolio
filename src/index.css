@@ -86,7 +86,7 @@ color{
 }
 .loader{
   
- 
+ color: #ff8c0062;
 z-index: 9999;
 }
 .loader .box {

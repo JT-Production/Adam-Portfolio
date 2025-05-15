@@ -1,8 +1,8 @@
 import { FiYoutube } from "react-icons/fi";
 import Avatar from "../assets/img/adam-img.jpg";
 import { RiTwitterXFill } from "react-icons/ri";
-import { FaTelegram } from "react-icons/fa6";
-import { IoLogoTiktok } from "react-icons/io5";
+import { FaInstagram, FaTelegram } from "react-icons/fa6";
+
 
 
 const Hero = () => {
@@ -124,8 +124,8 @@ Let me show you how to use it wisely</p>
              <FaTelegram /> Telegram
             </a>
             
-            <a href="https://tiktok.com/@AdamBitcoinP2P1" className="text-white lg:text-lg text-sm flex gap-2 items-center  relative inset-0 " style={{ color: "#FF8C00" }}>
-             <IoLogoTiktok /> Tiktok
+            <a href="https://www.instagram.com/adambitcoinp2p1?igsh=aDV5bThlejVyeDN0" className="text-white lg:text-lg text-sm flex gap-2 items-center  relative inset-0 " style={{ color: "#FF8C00" }}>
+             <FaInstagram /> Instagram
             </a>
           </div>
 

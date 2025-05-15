@@ -10,7 +10,7 @@ interface DownloadPdfButtonProps {
 
 const DownloadPdfButton: React.FC<DownloadPdfButtonProps> = ({
   fileUrl,
-  fileName = 'Web3_Growth.pdf',
+  fileName = 'Free_Bitcoin_Blueprint.pdf',
   
 }) => {
 //   const handleDownload = () => {

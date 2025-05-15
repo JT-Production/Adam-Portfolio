@@ -10,7 +10,7 @@ interface DownloadPdfButtonProps {
 
 const DownloadPdfButton: React.FC<DownloadPdfButtonProps> = ({
   fileUrl,
-  fileName = 'Web3_Growth.pdf',
+  fileName = 'Bitcoin_Blueprint.pdf',
   
 }) => {
 //   const handleDownload = () => {
@@ -71,7 +71,7 @@ const DownloadPdfButton: React.FC<DownloadPdfButtonProps> = ({
    <div className="">
  
 
-      <Button onClickk={handleDownload} link="" target="null" text="Premium Bitcoin Guide"   classNam="relative inset-0 flex items-center gap-2 bg-transparent border border-orange-400 hover:bg-zinc-900 " icon={<MdOutlineFileDownload />} />
+      <Button onClickk={handleDownload} link="https://buy.stripe.com/aEUg0u0wDeiL42QfYY" target="null" text="Premium Bitcoin Guide"    classNam="relative inset-0 flex items-center gap-2 bg-transparent border border-orange-400 hover:bg-zinc-900 " icon={<MdOutlineFileDownload />} />
      
    
    </div>
