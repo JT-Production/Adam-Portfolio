@@ -5,7 +5,7 @@ import DownloadPdfButton from "./DownloadPdf copy";
 
 const Offers = () => {
   return (
-    <div className="lg:px-35 pb-10   md:py-0 lg:py-0 lg:mt-0 md:mt-0 relative z-0 inset-0 px-1 ">
+    <div className="lg:px-35 pb-10   md:py-0 lg:py-0 lg:mt-0 md:mt-0 relative z-0 inset-0 px-1 " id="offer">
         {/* <h1 className="font-bold text-3xl mb-5">What I Offer  <span className="text-xl font-normal">- Click for more information</span></h1> */}
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 px-3">

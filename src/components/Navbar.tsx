@@ -44,7 +44,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="www.facebook.com"
+            to="offer"
             smooth={true}
           
             duration={500}
