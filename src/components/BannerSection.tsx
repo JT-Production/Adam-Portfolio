@@ -28,10 +28,8 @@ const BannerSection = () => {
             </h1>
          </div>
         <p data-aos="fade-up"
-          data-aos-duration="1000" className="lg:text-md text-sm text-center mt-4 lg:w-2/3 mx-auto text-white/60 mb-3 font-body px-1">
-          I help people understand Bitcoin, build communities, and grow their
-          brand with powerful marketing strategies—so you can thrive in the new
-          digital economy.
+          data-aos-duration="1000" className="lg:text-lg text-sm text-center mt-4 lg:w-4/5 mx-auto text-white/60 mb-3 font-body px-1">
+          I help people understand Bitcoin and thrive in the digital economy through the Bitcoin Blueprint.
         </p>
         <div className="flex gap-3 justify-center items-center" data-aos="fade-up"
           data-aos-duration="2000">
