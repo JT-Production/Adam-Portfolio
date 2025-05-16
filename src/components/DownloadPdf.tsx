@@ -69,7 +69,7 @@ const DownloadPdfButton: React.FC<DownloadPdfButtonProps> = ({
 
   return (
    <div className="">
-      <Button onClickk={handleDownload} link="" target="null" text="Free Bitcoin Guide"   classNam="relative inset-0 flex items-center gap-2 bg-transparent border border-orange-400 hover:bg-zinc-900 " icon={<MdOutlineFileDownload />} />
+      <Button onClickk={handleDownload} link="" target="null" text="Free Guide"   classNam="relative inset-0 flex items-center gap-2 bg-transparent border border-orange-400 hover:bg-zinc-900 " icon={<MdOutlineFileDownload />} />
    </div>
     )
 };

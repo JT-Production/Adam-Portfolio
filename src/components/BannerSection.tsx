@@ -1,6 +1,5 @@
-import { MdOutlineCurrencyBitcoin } from "react-icons/md";
+import { MdOutlineCurrencyBitcoin, MdOutlineWorkspacePremium } from "react-icons/md";
 import Button from "./Button";
-import { FaTelegram } from "react-icons/fa6";
 import DownloadPdfButton from "./DownloadPdf";
 
 
@@ -37,7 +36,7 @@ const BannerSection = () => {
         <div className="flex gap-3 justify-center items-center" data-aos="fade-up"
           data-aos-duration="2000">
           {/* <Button link="" text=" Join My Free Twitter Space" target="_blank" classNam="" />  */}
-          <Button link="https://t.me/adambitcoinchat" text="Learn Bitcoin" target="_blank" classNam="flex n items-center gap-2 font-body"  icon={<FaTelegram className="text-[16px]" />} />
+          <Button link="https://buy.stripe.com/aEUg0u0wDeiL42QfYY" text="Premium Access" target="_blank" classNam="flex  items-center gap-1 font-body"  icon={<MdOutlineWorkspacePremium className="text-[16px]" />} />
           <DownloadPdfButton fileUrl="pdf\BitcoinBlueprintFree.pdf"/>
         </div>
        </div>
