@@ -56,7 +56,7 @@ const Navbar = () => {
             to=""
             smooth={true}
             duration={500}
-            href="https://t.me/AdamBitcoinChat"
+            href="https://t.me/adambitcoinp2p1"
             className={`${display} lg:block bg-orange-400 py-2.5 px-4 rounded-3xl `}
           >
             <span className="flex items-center gap-2">Chat Now <BiMessageRoundedDetail className="text-lg" /></span>
