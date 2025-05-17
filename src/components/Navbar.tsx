@@ -50,7 +50,7 @@ const Navbar = () => {
             duration={500}
             className={`${display} lg:block cursor-pointer flex gap-1 `}
           >
-            Services
+            Learn
           </Link>
           <Link
             to=""
