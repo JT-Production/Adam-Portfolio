@@ -27,7 +27,7 @@ const Offers = () => {
                 <h2 className="text-[22px] mb-3 heading ">Bitcoin Blueprint Premium PDF</h2>
                 <p className="text-white/50">Unlock the advanced PDF guide with deeper insights and strategies for serious learners.</p>
                 <div className="lg:w-auto md:w-50 w-49 flex lg:justify-center items-center">
-                    <DownloadPdfButton2 fileUrl="pdf\BitcoinBlueprint.pdf" />
+                    <DownloadPdfButton2  />
                 </div>
             </div>
             <div data-aos="fade-up"
