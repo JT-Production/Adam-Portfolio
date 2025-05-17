@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import { MdOutlineFileDownload } from 'react-icons/md';
+import { MdOutlineWorkspacePremium } from 'react-icons/md';
 
 interface DownloadPdfButtonProps {
   fileUrl: string;          // URL or relative path to the PDF file
@@ -8,7 +8,7 @@ interface DownloadPdfButtonProps {
   label?: string;           // Optional button label
 }
 
-const DownloadPdfButton: React.FC<DownloadPdfButtonProps> = ({
+const DownloadPdfButton2: React.FC<DownloadPdfButtonProps> = ({
   fileUrl,
   fileName = 'Bitcoin_Blueprint.pdf',
   
@@ -71,11 +71,11 @@ const DownloadPdfButton: React.FC<DownloadPdfButtonProps> = ({
    <div className="">
  
 
-      <Button onClickk={handleDownload} link="https://buy.stripe.com/aEUg0u0wDeiL42QfYY" target="null" text="Premium Bitcoin Guide"    classNam="relative inset-0 flex items-center gap-2 bg-transparent border border-orange-400 hover:bg-zinc-900 " icon={<MdOutlineFileDownload />} />
+      <Button  link="https://buy.stripe.com/aEUg0u0wDeiL42QfYY" target="null" text="Premium Access"    classNam="relative inset-0 flex items-center gap-2 bg-transparent border border-orange-400 hover:bg-zinc-900 " icon={<MdOutlineWorkspacePremium/>} />
      
    
    </div>
     )
 };
 
-export default DownloadPdfButton;
+export default DownloadPdfButton2;

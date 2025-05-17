@@ -11,18 +11,19 @@ const CTA = () => {
         </h1>
         <p className="text-center lg:w-6/12 mx-auto text-[16px]">Join the Adam Bitcoin Chat on Telegram, follow my content, or jump right into the class—and start building real financial skills with Bitcoin.</p>
         <div className="grid grid-cols-2 gap-2">
-          <Button
-            link="https://t.me/adambitcoinchat"
-            icon={<FaTelegram className="text-lg" />}
-            text="Join tg Group"
-            target="_blank"
-            classNam="flex items-center gap-2 font-body lg:px-10 cursor-pointer ms-auto"/>
             <Button
             link="https://buy.stripe.com/7sYaEY4tc8iI3oI3Osebu02"
             icon={<MdOutlineClass className="text-lg" />}
             text="Join class"
             target="_blank"
-            classNam="flex item-center gap-2 font-body lg:px-10 cursor-pointer me-auto"/>
+            classNam="flex item-center gap-2 font-body lg:px-10 cursor-pointer ms-auto"/>
+          <Button
+            link="https://t.me/adambitcoinchat"
+            icon={<FaTelegram className="text-lg" />}
+            text="Join tg Group"
+            target="_blank"
+            classNam="flex items-center gap-2 font-body lg:px-10 cursor-pointer me-auto  bg-transparent border border-orange-400"/>
+      
         </div>
        </div>
     </div>
