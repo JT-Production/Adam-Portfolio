@@ -1,43 +1,21 @@
-import BannerSection from "./components/BannerSection";
-import Hero from "./components/Hero";
-import Loader from "./components/Loader";
-import Navbar from "./components/Navbar";
-import ScrollDown from "./components/ScrollDown";
-import Footer from "./components/Footer";
-import { Analytics } from "@vercel/analytics/react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-import Offers from "./components/Offers";
-import CTA from "./components/CTA";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './HomePage';
+import AboutPage from './AboutPage';
+
 
 
 
 
 const App = () => {
 
-  useEffect(() => {
-    AOS.init({
-      once: true,
-    });
-  });
-  return (
-    <>
 
-     
-      <div className="h-100vh">
-        <Loader/>
-      <Navbar />
-      <BannerSection />
-      <ScrollDown />
-      
-      </div>
-      <Hero />
-      <Offers/>
-      <CTA/>
-      <Footer />
-      <Analytics />
-    </>
+  return (
+     <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
+    </Router>
   );
 };
 
