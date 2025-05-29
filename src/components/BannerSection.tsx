@@ -5,6 +5,7 @@ import {
 import Button from "./Button";
 import DownloadPdfButton from "./DownloadPdf";
 import bannerVid from "../assets/vid/banner vid.mp4";
+import poster from "../assets/img/thumbnails.png"; // Adjust the path as necessary
 
 const BannerSection = () => {
   return (
@@ -45,9 +46,10 @@ const BannerSection = () => {
               
               
              controls
-              // playsInlin
-              // preload="auto"
+              playsInline
+              preload="auto"
               // poster="/images/video-thumbnail.jpg"
+              poster={poster}
               className="lg:h-70 px-10"
               style={{ width: "auto",  }}
             />
