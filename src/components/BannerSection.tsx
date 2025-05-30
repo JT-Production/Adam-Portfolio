@@ -1,5 +1,5 @@
 import {
-  MdOutlineCurrencyBitcoin,
+ 
   MdOutlineWorkspacePremium,
 } from "react-icons/md";
 import Button from "./Button";
