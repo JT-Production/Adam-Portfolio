@@ -13,55 +13,33 @@ const BannerSection = () => {
       <div className="container flex items-center justify-center h-[460px] z-10 inset-0 mx-auto relative text-center mt-10">
         <div className="">
           <div className="">
-            <h1
-              style={{
-                // fontSize: ['text-5xl', 'text-7xl'],
-                textTransform: "uppercase",
-                fontWeight: "normal",
-                textAlign: "center",
-                display: "flex",
-                justifyContent: "center",
-                color: "transparent",
-                backgroundClip: "text",
-                backgroundImage:
-                  "linear-gradient(to right, #fff7ed, #f97316, #7c2d12)",
-              }}
-              className="text-5xl lg:text-7xl font-bold items-center mb-3"
-              data-aos="fade-down"
-              data-aos-duration="1000"
-            >
-              Adam{" "}
-              <span style={{ display: "flex" }} className="items-center">
-                <MdOutlineCurrencyBitcoin
-                  style={{ color: "#f97316" }}
-                  className="translate-x-2 lg:translate-x-3"
-                />
-                itcoin
-              </span>
+            <h1 className="lg:text-3xl break-all heading text-[22px] lg:w-7/12 mx-auto px-4 text-center">
+              Learn how the future of money works — and finally feel <br /> confident
+              using it.
             </h1>
 
             <center>
               <video
-              src={bannerVid}
-              
-              
-             controls
-              playsInline
-              preload="auto"
-              // poster="/images/video-thumbnail.jpg"
-              poster={poster}
-              className="lg:h-70 px-10"
-              style={{ width: "auto",  }}
-            />
+                src={bannerVid}
+                controls
+                playsInline
+                preload="auto"
+                // poster="/images/video-thumbnail.jpg"
+                poster={poster}
+                className="lg:h-70 px-10"
+                style={{ width: "auto" }}
+              />
             </center>
           </div>
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="lg:text-lg text-sm text-center mt-4 lg:w-4/5 mx-auto text-white/60 mb-3 font-body px-1"
+            className="lg:text-lg text-sm text-center mt-4  lg:w-7/12 mx-auto text-white/60 mb-3 font-body px-2"
           >
-            I help people understand Bitcoin and thrive in the digital economy
-            through the Bitcoin Blueprint.
+            You’ve watched from the sidelines long enough — overwhelmed by
+            wallets, mining, and all the noise. Bitcoin isn’t going away, and
+            the Bitcoin Blueprint breaks it down so you can finally understand
+            this new digital economy.
           </p>
           <div
             className="flex gap-3 justify-center items-center"

@@ -5,11 +5,20 @@
     font-family:"Aeonik";
     src: url('./assets/fonts/Aeonik_Fono/AeonikFono-Regular.otf') format('opentype');
 }
+@font-face {
+  font-family: 'Clash';
+  src: url('./assets/fonts/Clash/ClashDisplay-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Clash Para';
+  src: url('./assets/fonts/Clash/ClashDisplay-Medium.ttf') format('truetype');
+}
 html{
   scroll-behavior: smooth!important;  
 } 
 .font-body{
-  font-family: 'Aeonik', sans-serif !important;
+  /* font-family: 'Aeonik', sans-serif !important; */
+  font-family: 'Clash Para', sans-serif !important;
 }
 :root::-webkit-scrollbar {
   border: none;
@@ -43,11 +52,13 @@ body{
    
 }
 .heading{
-    font-family: 'Helvetica Neue', sans-serif ;   
+    /* font-family: 'Helvetica Neue', sans-serif ;    */
+    font-family: Clash ;
     
 }
 p,.para{
-    font-family: 'Aeonik', sans-serif !important;  
+    /* font-family: 'Aeonik', sans-serif !important;   */
+    font-family: Clash Para ;
 }
 color{
     color: #050505;

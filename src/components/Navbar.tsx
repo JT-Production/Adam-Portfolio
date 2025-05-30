@@ -6,6 +6,7 @@ import Avatar from "../assets/img/adam-img.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BiMessageRoundedDetail } from "react-icons/bi";
+import { MdOutlineCurrencyBitcoin } from "react-icons/md";
 
 const Navbar = () => {
   const [display, setDisplay] = useState("hidden");
@@ -19,15 +20,43 @@ const Navbar = () => {
   });
   return (
     <>
-      <div className="nav flex justify-between items-center  align-center p-4 lg:px-8 pt-3 align-center z-10 inset-0  relative">
+      <div className="nav flex justify-between items-center  p-4 lg:px-8 pt-3 align-center z-10 inset-0  relative">
         <a
           href=""
-          className="flex ms-3 gap-2 align-center cursor-pointer "
+          className="flex align-center cursor-pointer "
           data-aos="fade-right"
           data-aos-duration="2000"
         >
           <img src={Avatar} alt="" className="w-12 h-12 rounded-full " />
         </a>
+
+         <h1
+              style={{
+                // fontSize: ['text-5xl', 'text-7xl'],
+                textTransform: "uppercase",
+                fontWeight: "normal",
+                textAlign: "center",
+                display: "flex",
+                justifyContent: "center",
+                color: "transparent",
+                backgroundClip: "text",
+                backgroundImage:
+                  "linear-gradient(to right, #fff7ed, #f97316, #7c2d12)",
+              }}
+              className="text-3xl lg:text-6xl font-bolder items-center mb-3 mx-auto -translate-x-4 heading"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              Adam
+              <span style={{ display: "flex" }} className="items-center">
+                <MdOutlineCurrencyBitcoin
+                  style={{ color: "#f97316" }}
+                  className="translate-x-1 lg:translate-x-2 -translate-y-0.5"
+                />
+                itcoin
+              </span>
+            </h1>
+
         <div
           data-aos="fade-down"
           data-aos-duration="1000"
