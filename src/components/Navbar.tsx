@@ -38,19 +38,19 @@ const Navbar = () => {
                 textAlign: "center",
                 display: "flex",
                 justifyContent: "center",
-                color: "transparent",
-                backgroundClip: "text",
-                backgroundImage:
-                  "linear-gradient(to right, #fff7ed, #f97316, #7c2d12)",
+                // color: "transparent",
+                // backgroundClip: "text",
+                // backgroundImage:
+                //   "linear-gradient(to right, #fff7ed, #f97316, #7c2d12)",
               }}
-              className="text-3xl lg:text-6xl font-bolder items-center mb-3 mx-auto -translate-x-4 heading"
+              className="text-3xl lg:text-6xl font-bolder items-center mb-3 mx-auto -translate-x-4 heading text-orange-400"
               data-aos="fade-down"
               data-aos-duration="1000"
             >
               Adam
-              <span style={{ display: "flex" }} className="items-center">
+              <span style={{ display: "flex" }} className="items-center text-orange-400">
                 <MdOutlineCurrencyBitcoin
-                  style={{ color: "#f97316" }}
+                  // style={{ color: "#f97316" }}
                   className="translate-x-1 lg:translate-x-2 -translate-y-0.5"
                 />
                 itcoin

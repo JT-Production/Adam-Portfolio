@@ -14,7 +14,7 @@ const BannerSection = () => {
         <div className="">
           <div className="">
             <h1 className="lg:text-3xl break-all heading text-[22px] lg:w-7/12 mx-auto px-4 text-center">
-              Learn how the future of money works — and finally feel <br /> confident
+              <span className="text-orange-400">Learn</span> how the future of <span className="text-orange-400">money</span> works — and finally feel <br /> <span className="text-orange-400">confident</span>
               using it.
             </h1>
 
