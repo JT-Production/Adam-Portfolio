@@ -14,8 +14,8 @@ const BannerSection = () => {
         <div className="">
           <div className="">
             <h1 className="lg:text-3xl break-all heading text-[22px] lg:w-7/12 mx-auto px-4 text-center">
-              <span className="text-orange-400">Learn</span> how the future of <span className="text-orange-400">money</span> works — and finally feel <br /> <span className="text-orange-400">confident</span>
-              using it.
+              <span className="text-orange-400">Learn</span> how the future of <span className="text-orange-400">money</span> works — and finally feel <br /> <span className="text-orange-400">confident </span>
+               using it.
             </h1>
 
             <center>
@@ -34,7 +34,7 @@ const BannerSection = () => {
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="lg:text-lg text-sm text-center mt-4  lg:w-7/12 mx-auto text-white/60 mb-3 font-body px-2"
+            className="lg:text-lg text-sm text-center mt-4  lg:w-7/12 mx-auto text-white/90 mb-3 font-body px-2"
           >
             You’ve watched from the sidelines long enough — overwhelmed by
             wallets, mining, and all the noise. Bitcoin isn’t going away, and

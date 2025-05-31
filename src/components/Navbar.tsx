@@ -48,7 +48,7 @@ const Navbar = () => {
               data-aos-duration="1000"
             >
               Adam
-              <span style={{ display: "flex" }} className="items-center text-orange-400">
+              <span style={{ display: "flex" }} className="items-center text-orange-400_____">
                 <MdOutlineCurrencyBitcoin
                   // style={{ color: "#f97316" }}
                   className="translate-x-1 lg:translate-x-2 -translate-y-0.5"
