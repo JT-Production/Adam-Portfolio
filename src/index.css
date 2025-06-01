@@ -2,10 +2,6 @@
 
 
 @font-face {
-    font-family:"Aeonik";
-    src: url('./assets/fonts/Aeonik_Fono/AeonikFono-Regular.otf') format('opentype');
-}
-@font-face {
   font-family: 'Clash';
   src: url('./assets/fonts/Clash/ClashDisplay-Bold.ttf') format('truetype');
 }
@@ -20,29 +16,6 @@ html{
   /* font-family: 'Aeonik', sans-serif !important; */
   font-family: 'Clash Para', sans-serif !important;
 }
-:root::-webkit-scrollbar {
-  border: none;
-  width: 7px;
-  height: 7px;
-}
-
-:root::-webkit-scrollbar-track {
-  background: #181818;
-}
-
-:root::-webkit-scrollbar-thumb {
-  border-radius: 30px;
-  background: var(--prycol);
-}
-
-:root::-webkit-scrollbar-thumb:hover {
-  color: #463d00;
-}
-
-:root::-webkit-scrollbar-button {
-  display: none;
-
-}          
 body{
     overflow-x: hidden;     
     /* background-color: #0A0A0A; */
