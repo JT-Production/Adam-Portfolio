@@ -23,7 +23,7 @@ const BannerSection = () => {
                 src={bannerVid}
                 controls
                 playsInline
-                preload="auto"
+                preload="none"
                 // poster="/images/video-thumbnail.jpg"
                 poster={poster}
                 className="lg:h-70 px-10"
@@ -70,31 +70,7 @@ const BannerSection = () => {
           backgroundPosition: "center ",
         }}
       ></div>
-      {/* shapeless glow div */}
-      {/* <div
-        className="absolute inset-0 z-1"
-        style={{
-          backgroundImage: `radial-gradient(circle, rgba(255, 255, 255, 0.169) 0%, rgba(0, 0, 0, 0.1) 60%)`,
-          filter: "blur(100px)",
-          width: "50%",
-          height: "70%",
-          backgroundPosition: "center",
-          left: "50%",
-          transform: "translateX(-50%)"
-        }}></div>
-        {/* shapeless orange glow gradient left div */}
-      {/* <div
-        className="absolute inset-0 z-1"
-        style={{
-          backgroundImage: `radial-gradient(circle, rgb(234 88 12 / 0.4) 0%, rgb(251 146 60 / 0.2) 100%)`,
-          filter: "blur(100px)",
-          width: "50%",
-          height: "50%",
-          backgroundPosition: "center",
-          top: "50%",
-          right: "0%",
-          transform: "translateX(160%)"
-        }}></div> */}
+
       <div
         style={{
           position: "fixed",

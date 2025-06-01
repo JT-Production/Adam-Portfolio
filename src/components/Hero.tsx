@@ -108,6 +108,7 @@ Let me show you how to use it wisely</p>
               alt=""
               data-aos="fade-left" data-aos-duration="2000"
               className="lg:w-96 lg:h-auto md:w-96  rounded-4xl w-[6000px] lg:my-0 my-5"
+              loading="lazy" 
             />
           </center>
         {/* </div> */}

@@ -25,6 +25,7 @@ const Offers = () => {
           <img
             src={market}
             alt=""
+            loading="lazy" 
             className="h-40 cssanimation hu__hu__  lg:mx-auto "
             style={{
               WebkitFilter: "drop-shadow(5px 5px 5px  #ff8c0062)",
@@ -54,6 +55,7 @@ const Offers = () => {
           <img
             src={success}
             alt=""
+            loading="lazy" 
             className="h-40 cssanimation hu__hu__  lg:mx-auto"
             style={{
               WebkitFilter: "drop-shadow(5px 5px 5px  #ff8c0062)",
@@ -78,6 +80,7 @@ const Offers = () => {
         >
           <img
             src={bitcoin}
+            loading="lazy" 
             alt=""
             className="h-40 cssanimation hu__hu__  lg:mx-auto "
             style={{
