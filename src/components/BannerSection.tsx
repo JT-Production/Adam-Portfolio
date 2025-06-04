@@ -52,7 +52,7 @@ const BannerSection = () => {
               link="https://t.me/adambitcoinchat"
               text="Apply for class"
               target="_blank"
-              classNam="flex px-10  items-center gap-1 font-body "
+              classNam="flex px-8  items-center gap-1 font-body "
               icon={<MdOutlineClass className="text-[16px]" />}
             />
             {/* <DownloadPdfButton fileUrl="pdf\BitcoinBlueprintFree.pdf" /> */}
