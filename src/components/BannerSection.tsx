@@ -1,9 +1,10 @@
 import {
  
-  MdOutlineWorkspacePremium,
+  MdOutlineClass,
+
 } from "react-icons/md";
 import Button from "./Button";
-import DownloadPdfButton from "./DownloadPdf";
+// import DownloadPdfButton from "./DownloadPdf";
 import bannerVid from "../assets/vid/banner vid.mp4";
 import poster from "../assets/img/thumbnails.png"; // Adjust the path as necessary
 
@@ -48,13 +49,13 @@ const BannerSection = () => {
           >
             {/* <Button link="" text=" Join My Free Twitter Space" target="_blank" classNam="" />  */}
             <Button
-              link="https://buy.stripe.com/aEUg0u0wDeiL42QfYY"
-              text="Premium Access"
+              link="https://t.me/adambitcoinchat"
+              text="Apply for class"
               target="_blank"
-              classNam="flex  items-center gap-1 font-body"
-              icon={<MdOutlineWorkspacePremium className="text-[16px]" />}
+              classNam="flex px-10  items-center gap-1 font-body "
+              icon={<MdOutlineClass className="text-[16px]" />}
             />
-            <DownloadPdfButton fileUrl="pdf\BitcoinBlueprintFree.pdf" />
+            {/* <DownloadPdfButton fileUrl="pdf\BitcoinBlueprintFree.pdf" /> */}
           </div>
         </div>
       </div>
